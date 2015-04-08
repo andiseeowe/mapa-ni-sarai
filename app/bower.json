@@ -1,0 +1,26 @@
+{
+  "name": "tjmonsi-website-polymer",
+  "version": "0.0.0",
+  "homepage": "",
+  "authors": [],
+  "license": "none",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer",
+    "core-elements": "Polymer/core-elements",
+    "paper-elements": "Polymer/paper-elements",
+    "di-elements": "DifferentialWebComponents/di-elements"
+  },
+  "resolutions": {
+    "core-component-page": "^0.5.0",
+    "polymer": "^0.5.0",
+    "webcomponentsjs": "^0.5.0"
+  }
+}

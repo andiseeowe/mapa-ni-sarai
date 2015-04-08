@@ -1,0 +1,60 @@
+<template name="Navigation">
+  <core-toolbar class="grey">
+    {{#if showMenuButton}}
+      <div class="menu-button">
+        <paper-icon-button id="toggle-side-navigation" icon="menu" class="white-text"></paper-icon-button>
+      </div>
+    {{/if}}
+    
+    {{#if showLogo}}
+      <div>
+        <h5><a href="{{pathFor 'home'}}" class="white-text">SARAI Template</a></h5>
+      </div>
+    {{/if}}
+
+    <div flex></div>
+
+    {{#if showTopNavMenu}}
+      <div id="top-nav-menu">
+        {{#each menuArray}}
+          <paper-button class="grey white-text navigation" data-path="{{path}}">
+            {{#if linkInside}}
+              {{#linkTo route=path}}
+                {{name}}
+              {{/linkTo}}
+            {{else}}
+              <a href="{{path}}">{{name}}</a>
+            {{/if}}
+          </paper-button>
+        {{/each}}
+      </div>
+      
+      
+    {{/if}}
+    
+    {{#if isTopNav}}
+      <div id="login-area">
+        {{> loginButtons align="right"}}
+      </div>
+    {{/if}}
+    
+    
+  </core-toolbar>
+  {{#if showSideNavMenu}}
+    
+    <core-menu id="side-nav-menu">
+      {{#each menuArray}}
+        <paper-item class="black-text navigation">
+          {{#if linkInside}}
+            {{#linkTo route=path}}
+              {{name}}
+            {{/linkTo}}
+          {{else}}
+            <a href="{{path}}">{{name}}</a>
+          {{/if}}
+          
+        </paper-item>
+      {{/each}}
+    </core-menu>
+  {{/if}}
+</template>
