@@ -8,10 +8,20 @@
     <core-header-panel drawer id="core-drawer">
       {{> Navigation isTopNav=false}}
     </core-header-panel>
+
     <core-header-panel main id="core-main">
       {{> Navigation isTopNav=true}}
+      <div class="banner">
+        {{> banner}}
+      </div>
+      {{> Auxillary}}
       <div class="content">
         {{> yield}}
+      </div>
+      <div class="footer">
+        <div flex="33" style=" height: 200px; padding: 10px; margin: 10px; text-align: center; background-color: #cccccc">
+        FOOTER
+        </div>
       </div>
     </core-header-panel>
   </core-drawer-panel>

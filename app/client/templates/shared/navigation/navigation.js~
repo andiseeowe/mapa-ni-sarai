@@ -23,7 +23,6 @@ Template.Navigation.helpers({
     return ((this.isTopNav && isHome()) || 
             (this.isTopNav && !isDesktop.get()) || 
             (!this.isTopNav && (!isHome() || !isDesktop.get())))
-    //return this.isTopNav
   },
   showTopNavMenu: function() {
     return ((this.isTopNav && isHome() && isDesktop.get()))
@@ -33,50 +32,22 @@ Template.Navigation.helpers({
   },
   menuArray: function() {
     return [
-      // {
-      //   name: "Google",
-      //   path: "http://www.google.com",
-      //   linkInside: false
-      // },
+      {
+        name: "Google",
+        path: "http://www.google.com",
+        linkInside: false
+      },
       
       {
-        name: "About Us",
+        name: "Inside",
         path: "inside",
-        linkInside: true,
-        hasChild: false
+        linkInside: true
       },      
       
       {
-        name: "Tools",
-        path: "posts",
-        linkInside: true,
-        hasChild: false
-      },
-      {
-        name: "Crops",
+        name: "Posts",
         path: "inside",
-        linkInside: true,
-        hasChild: true,
-        sublinks: [
-          {
-            name: "Rice",
-            path: "inside",
-            linkInside: true,
-            hasChild: false 
-          },
-          {
-            name: "Corn",
-            path: "inside",
-            linkInside: true,
-            hasChild: false 
-          }
-        ]
-      }, 
-      {
-        name: "Contact Us",
-        path: "posts",
-        linkInside: true,
-        hasChild: false
+        linkInside: true
       }
     ]
   }

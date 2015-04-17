@@ -1,0 +1,1751 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'iron-meteor' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.25
+4 verbose cache add [ 'iron-meteor', null ]
+5 verbose cache add name=undefined spec="iron-meteor" args=["iron-meteor",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'iron-meteor',
+6 verbose parsed url   path: 'iron-meteor',
+6 verbose parsed url   href: 'iron-meteor' }
+7 silly lockFile 561ce714-iron-meteor iron-meteor
+8 verbose lock iron-meteor /home/roinand/.npm/561ce714-iron-meteor.lock
+9 silly lockFile 561ce714-iron-meteor iron-meteor
+10 silly lockFile 561ce714-iron-meteor iron-meteor
+11 verbose addNamed [ 'iron-meteor', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 91b16a4b-iron-meteor iron-meteor@
+14 verbose lock iron-meteor@ /home/roinand/.npm/91b16a4b-iron-meteor.lock
+15 silly addNameRange { name: 'iron-meteor', range: '*', hasData: false }
+16 verbose request where is /iron-meteor
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id b9c9eddc1063ebec
+19 verbose url raw /iron-meteor
+20 verbose url resolving [ 'https://registry.npmjs.org/', './iron-meteor' ]
+21 verbose url resolved https://registry.npmjs.org/iron-meteor
+22 verbose request where is https://registry.npmjs.org/iron-meteor
+23 info trying registry request attempt 1 at 15:54:57
+24 verbose etag "756BU7SP9KV1BSJXB9UQLS1R0"
+25 http GET https://registry.npmjs.org/iron-meteor
+26 http 304 https://registry.npmjs.org/iron-meteor
+27 silly registry.get cb [ 304,
+27 silly registry.get   { date: 'Mon, 13 Apr 2015 07:55:12 GMT',
+27 silly registry.get     server: 'Apache',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     'last-modified': 'Mon, 13 Apr 2015 07:55:12 GMT',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     etag: '"756BU7SP9KV1BSJXB9UQLS1R0"',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-sjc3127-SJC',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1428911712.084779,VS0,VE86',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'content-length': '0',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 verbose etag https://registry.npmjs.org/iron-meteor from cache
+29 silly addNameRange number 2 { name: 'iron-meteor', range: '*', hasData: true }
+30 silly addNameRange versions [ 'iron-meteor', [ '1.0.0', '1.1.0', '1.1.1', '1.1.2' ] ]
+31 verbose addNamed [ 'iron-meteor', '1.1.2' ]
+32 verbose addNamed [ '1.1.2', '1.1.2' ]
+33 silly lockFile d15c7007-iron-meteor-1-1-2 iron-meteor@1.1.2
+34 verbose lock iron-meteor@1.1.2 /home/roinand/.npm/d15c7007-iron-meteor-1-1-2.lock
+35 silly lockFile d15c7007-iron-meteor-1-1-2 iron-meteor@1.1.2
+36 silly lockFile d15c7007-iron-meteor-1-1-2 iron-meteor@1.1.2
+37 silly lockFile 91b16a4b-iron-meteor iron-meteor@
+38 silly lockFile 91b16a4b-iron-meteor iron-meteor@
+39 silly resolved [ { name: 'iron-meteor',
+39 silly resolved     version: '1.1.2',
+39 silly resolved     description: 'A command line tool for scaffolding Meteor applications.',
+39 silly resolved     homepage: 'https://github.com/iron-meteor/iron-cli',
+39 silly resolved     bugs:
+39 silly resolved      { url: 'https://github.com/iron-meteor/iron-cli/issues',
+39 silly resolved        email: 'chris@eventedmind.com' },
+39 silly resolved     scripts: { test: 'mocha test/integration' },
+39 silly resolved     author: { name: 'Chris Mather', email: 'chris@eventedmind.com' },
+39 silly resolved     license: 'MIT',
+39 silly resolved     dependencies:
+39 silly resolved      { 'cli-color': '0.2.3',
+39 silly resolved        minimist: '0.0.8',
+39 silly resolved        underscore: '1.3.3',
+39 silly resolved        'cli-table': '0.3.0',
+39 silly resolved        ejs: '0.8.5',
+39 silly resolved        fibers: '1.0.5',
+39 silly resolved        'single-line-log': '0.4.1',
+39 silly resolved        'shell-source': '1.0.1',
+39 silly resolved        xtend: '^4.0.0' },
+39 silly resolved     bin: { iron: './bin/iron' },
+39 silly resolved     devDependencies:
+39 silly resolved      { chai: '^1.9.1',
+39 silly resolved        chdir: '0.0.0',
+39 silly resolved        'concat-stream': '^1.4.6',
+39 silly resolved        mkdirp: '^0.5.0',
+39 silly resolved        mocha: '^1.21.4',
+39 silly resolved        rimraf: '^2.2.8' },
+39 silly resolved     contributors:
+39 silly resolved      [ [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object] ],
+39 silly resolved     gitHead: 'efacb1402f0609b50f16b5cb81ef0373e63bf69e',
+39 silly resolved     _id: 'iron-meteor@1.1.2',
+39 silly resolved     _shasum: '9b65ae789d776a16f9853a8d832dda257eecf8e1',
+39 silly resolved     _from: 'iron-meteor@',
+39 silly resolved     _npmVersion: '2.0.0',
+39 silly resolved     _npmUser: { name: 'cmather', email: 'chris@eventedmind.com' },
+39 silly resolved     maintainers: [ [Object] ],
+39 silly resolved     dist:
+39 silly resolved      { shasum: '9b65ae789d776a16f9853a8d832dda257eecf8e1',
+39 silly resolved        tarball: 'http://registry.npmjs.org/iron-meteor/-/iron-meteor-1.1.2.tgz' },
+39 silly resolved     directories: {},
+39 silly resolved     _resolved: 'https://registry.npmjs.org/iron-meteor/-/iron-meteor-1.1.2.tgz',
+39 silly resolved     readme: 'ERROR: No README data found!' } ]
+40 info install iron-meteor@1.1.2 into /usr/local/lib
+41 info installOne iron-meteor@1.1.2
+42 verbose lib/node_modules/iron-meteor unbuild
+43 info preuninstall iron-meteor@1.1.2
+44 info uninstall iron-meteor@1.1.2
+45 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild iron-meteor@1.1.2
+46 verbose /usr/local/bin,[object Object] binRoot
+47 info postuninstall iron-meteor@1.1.2
+48 verbose tar unpack /home/roinand/.npm/iron-meteor/1.1.2/package.tgz
+49 silly lockFile 152cea87-cal-lib-node-modules-iron-meteor tar:///usr/local/lib/node_modules/iron-meteor
+50 verbose lock tar:///usr/local/lib/node_modules/iron-meteor /home/roinand/.npm/152cea87-cal-lib-node-modules-iron-meteor.lock
+51 silly lockFile 1c84dd1b-pm-iron-meteor-1-1-2-package-tgz tar:///home/roinand/.npm/iron-meteor/1.1.2/package.tgz
+52 verbose lock tar:///home/roinand/.npm/iron-meteor/1.1.2/package.tgz /home/roinand/.npm/1c84dd1b-pm-iron-meteor-1-1-2-package-tgz.lock
+53 silly gunzTarPerm modes [ '755', '644' ]
+54 silly gunzTarPerm extractEntry package.json
+55 silly gunzTarPerm extractEntry .npmignore
+56 silly gunzTarPerm extractEntry README.md
+57 silly gunzTarPerm extractEntry AUTHORS
+58 silly gunzTarPerm extractEntry History.md
+59 silly gunzTarPerm modified mode [ 'History.md', 384, 420 ]
+60 silly gunzTarPerm extractEntry bin/iron
+61 silly gunzTarPerm extractEntry lib/command.js
+62 silly gunzTarPerm extractEntry lib/config.js
+63 silly gunzTarPerm extractEntry lib/generator.js
+64 silly gunzTarPerm extractEntry lib/iron.js
+65 silly gunzTarPerm extractEntry lib/tools.js
+66 silly gunzTarPerm extractEntry lib/commands/build.js
+67 silly gunzTarPerm extractEntry lib/commands/create.js
+68 silly gunzTarPerm extractEntry lib/commands/generate.js
+69 silly gunzTarPerm extractEntry lib/commands/help.js
+70 silly gunzTarPerm extractEntry lib/commands/init.js
+71 silly gunzTarPerm extractEntry lib/commands/migrate.js
+72 silly gunzTarPerm extractEntry lib/commands/run.js
+73 silly gunzTarPerm extractEntry lib/commands/test.js
+74 silly gunzTarPerm extractEntry lib/generators/collection.js
+75 silly gunzTarPerm extractEntry lib/generators/controller.js
+76 silly gunzTarPerm extractEntry lib/generators/publish.js
+77 silly gunzTarPerm extractEntry lib/generators/route.js
+78 silly gunzTarPerm extractEntry lib/generators/scaffold.js
+79 silly gunzTarPerm extractEntry lib/generators/stylesheet.js
+80 silly gunzTarPerm extractEntry lib/generators/template.js
+81 silly gunzTarPerm extractEntry lib/templates/app/client/.gitkeep
+82 silly gunzTarPerm extractEntry lib/templates/app/client/collections/.gitkeep
+83 silly gunzTarPerm extractEntry lib/templates/app/client/head.html
+84 silly gunzTarPerm extractEntry lib/templates/app/client/head.html.jade
+85 silly gunzTarPerm extractEntry lib/templates/app/client/lib/.gitkeep
+86 silly gunzTarPerm extractEntry lib/templates/app/client/stylesheets/.gitkeep
+87 silly gunzTarPerm extractEntry lib/templates/app/client/templates/.gitkeep
+88 silly gunzTarPerm extractEntry lib/templates/app/client/templates/layouts/master_layout/master_layout.js
+89 silly gunzTarPerm extractEntry lib/templates/app/client/templates/layouts/master_layout/master_layout.html
+90 silly gunzTarPerm extractEntry lib/templates/app/client/templates/layouts/master_layout/master_layout.html.jade
+91 silly gunzTarPerm extractEntry lib/templates/app/client/templates/layouts/master_layout/master_layout.js.coffee
+92 silly gunzTarPerm extractEntry lib/templates/app/client/templates/shared/loading/loading.html
+93 silly gunzTarPerm extractEntry lib/templates/app/client/templates/shared/loading/loading.html.jade
+94 silly gunzTarPerm extractEntry lib/templates/app/client/templates/shared/not_found/not_found.html
+95 silly gunzTarPerm extractEntry lib/templates/app/client/templates/shared/not_found/not_found.html.jade
+96 silly gunzTarPerm extractEntry lib/templates/app/lib/methods.js
+97 silly gunzTarPerm extractEntry lib/templates/app/lib/routes.js
+98 silly gunzTarPerm extractEntry lib/templates/app/lib/.gitkeep
+99 silly gunzTarPerm extractEntry lib/templates/app/lib/collections/.gitkeep
+100 silly gunzTarPerm extractEntry lib/templates/app/lib/controllers/home_controller.js
+101 silly gunzTarPerm extractEntry lib/templates/app/lib/controllers/.gitkeep
+102 silly gunzTarPerm extractEntry lib/templates/app/lib/controllers/home_controller.js.coffee
+103 silly gunzTarPerm extractEntry lib/templates/app/lib/methods.js.coffee
+104 silly gunzTarPerm extractEntry lib/templates/app/lib/routes.js.coffee
+105 silly gunzTarPerm extractEntry lib/templates/app/packages/.gitkeep
+106 silly gunzTarPerm extractEntry lib/templates/app/private/.gitkeep
+107 silly gunzTarPerm extractEntry lib/templates/app/public/.gitkeep
+108 silly gunzTarPerm extractEntry lib/templates/app/server/bootstrap.js
+109 silly gunzTarPerm extractEntry lib/templates/app/server/methods.js
+110 silly gunzTarPerm extractEntry lib/templates/app/server/publish.js
+111 silly gunzTarPerm extractEntry lib/templates/app/server/.gitkeep
+112 silly gunzTarPerm extractEntry lib/templates/app/server/bootstrap.js.coffee
+113 silly gunzTarPerm extractEntry lib/templates/app/server/collections/.gitkeep
+114 silly gunzTarPerm extractEntry lib/templates/app/server/controllers/.gitkeep
+115 silly gunzTarPerm extractEntry lib/templates/app/server/lib/.gitkeep
+116 silly gunzTarPerm extractEntry lib/templates/app/server/methods.js.coffee
+117 silly gunzTarPerm extractEntry lib/templates/app/server/publish.js.coffee
+118 silly gunzTarPerm extractEntry lib/templates/collection/collection.js
+119 silly gunzTarPerm extractEntry lib/templates/collection/collection.js.coffee
+120 silly gunzTarPerm extractEntry lib/templates/controller/controller.js
+121 silly gunzTarPerm extractEntry lib/templates/controller/controller.js.coffee
+122 silly gunzTarPerm extractEntry lib/templates/methods/methods.js
+123 silly gunzTarPerm extractEntry lib/templates/methods/methods.js.coffee
+124 silly gunzTarPerm extractEntry lib/templates/project/.iron/config.json
+125 silly gunzTarPerm extractEntry lib/templates/project/bin/.gitkeep
+126 silly gunzTarPerm extractEntry lib/templates/project/build/README
+127 silly gunzTarPerm extractEntry lib/templates/project/build/.gitkeep
+128 silly gunzTarPerm extractEntry lib/templates/project/config/.gitkeep
+129 silly gunzTarPerm extractEntry lib/templates/project/config/development/env.sh
+130 silly gunzTarPerm extractEntry lib/templates/project/config/development/settings.json
+131 silly gunzTarPerm extractEntry lib/templates/publish/publish.js
+132 silly gunzTarPerm extractEntry lib/templates/publish/publish.js.coffee
+133 silly gunzTarPerm extractEntry lib/templates/route/route.js
+134 silly gunzTarPerm extractEntry lib/templates/route/route.js.coffee
+135 silly gunzTarPerm extractEntry lib/templates/stylesheet/stylesheet.css
+136 silly gunzTarPerm extractEntry lib/templates/stylesheet/stylesheet.css.less
+137 silly gunzTarPerm extractEntry lib/templates/stylesheet/stylesheet.css.scss
+138 silly gunzTarPerm extractEntry lib/templates/stylesheet/stylesheet.css.styl
+139 silly gunzTarPerm extractEntry lib/templates/template/template.js
+140 silly gunzTarPerm extractEntry lib/templates/template/template.css
+141 silly gunzTarPerm extractEntry lib/templates/template/template.css.less
+142 silly gunzTarPerm extractEntry lib/templates/template/template.css.scss
+143 silly gunzTarPerm extractEntry lib/templates/template/template.css.styl
+144 silly gunzTarPerm extractEntry lib/templates/template/template.html
+145 silly gunzTarPerm extractEntry lib/templates/template/template.html.jade
+146 silly gunzTarPerm extractEntry lib/templates/template/template.js.coffee
+147 silly gunzTarPerm extractEntry lib/tools/exec_sync.js
+148 silly gunzTarPerm extractEntry lib/tools/file_system.js
+149 silly gunzTarPerm extractEntry lib/tools/interactions.js
+150 silly gunzTarPerm extractEntry lib/tools/logging.js
+151 silly gunzTarPerm extractEntry lib/tools/meteor.js
+152 silly gunzTarPerm extractEntry lib/tools/strings.js
+153 silly gunzTarPerm extractEntry test/integration/default.test.js
+154 silly gunzTarPerm extractEntry test/integration/integration_helpers.js
+155 silly gunzTarPerm extractEntry test/integration/fixtures/css/.em/config.json
+156 silly gunzTarPerm extractEntry test/integration/fixtures/css/.meteor/packages
+157 silly gunzTarPerm extractEntry test/integration/fixtures/css/both/router/.gitkeep
+158 silly gunzTarPerm extractEntry test/integration/fixtures/css/client/app.css
+159 silly gunzTarPerm extractEntry test/integration/fixtures/css/client/views/layouts/master_layout/master_layout.css
+160 silly gunzTarPerm extractEntry test/integration/fixtures/css/client/views/shared/loading/loading.css
+161 silly gunzTarPerm extractEntry test/integration/fixtures/css/client/views/shared/not_found/not_found.css
+162 silly gunzTarPerm extractEntry test/integration/fixtures/css/config/development/env.sh
+163 silly gunzTarPerm extractEntry test/integration/fixtures/css/config/development/settings.json
+164 silly gunzTarPerm extractEntry test/integration/fixtures/html/.em/config.json
+165 silly gunzTarPerm extractEntry test/integration/fixtures/html/.meteor/packages
+166 silly gunzTarPerm extractEntry test/integration/fixtures/html/both/router/.gitkeep
+167 silly gunzTarPerm extractEntry test/integration/fixtures/html/client/app.html
+168 silly gunzTarPerm extractEntry test/integration/fixtures/html/client/views/layouts/master_layout/master_layout.html
+169 silly gunzTarPerm extractEntry test/integration/fixtures/html/client/views/shared/loading/loading.html
+170 silly gunzTarPerm extractEntry test/integration/fixtures/html/client/views/shared/not_found/not_found.html
+171 silly gunzTarPerm extractEntry test/integration/fixtures/html/config/development/env.sh
+172 silly gunzTarPerm extractEntry test/integration/fixtures/html/config/development/settings.json
+173 silly gunzTarPerm extractEntry test/integration/fixtures/javascript/.em/config.json
+174 silly gunzTarPerm extractEntry test/integration/fixtures/javascript/.meteor/packages
+175 silly gunzTarPerm extractEntry test/integration/fixtures/javascript/both/app.js
+176 silly gunzTarPerm extractEntry test/integration/fixtures/javascript/both/router/routes.js
+177 silly gunzTarPerm extractEntry test/integration/fixtures/javascript/client/app.js
+178 silly gunzTarPerm extractEntry test/integration/fixtures/javascript/client/views/layouts/master_layout/master_layout.js
+179 silly gunzTarPerm extractEntry test/integration/fixtures/javascript/client/views/shared/loading/loading.js
+180 silly gunzTarPerm extractEntry test/integration/fixtures/javascript/client/views/shared/not_found/not_found.js
+181 silly gunzTarPerm extractEntry test/integration/fixtures/javascript/config/development/env.sh
+182 silly gunzTarPerm extractEntry test/integration/fixtures/javascript/config/development/settings.json
+183 silly lockFile 152cea87-cal-lib-node-modules-iron-meteor tar:///usr/local/lib/node_modules/iron-meteor
+184 silly lockFile 152cea87-cal-lib-node-modules-iron-meteor tar:///usr/local/lib/node_modules/iron-meteor
+185 silly lockFile 1c84dd1b-pm-iron-meteor-1-1-2-package-tgz tar:///home/roinand/.npm/iron-meteor/1.1.2/package.tgz
+186 silly lockFile 1c84dd1b-pm-iron-meteor-1-1-2-package-tgz tar:///home/roinand/.npm/iron-meteor/1.1.2/package.tgz
+187 info preinstall iron-meteor@1.1.2
+188 verbose readDependencies using package.json deps
+189 verbose readDependencies using package.json deps
+190 verbose cache add [ 'cli-color@0.2.3', null ]
+191 verbose cache add name=undefined spec="cli-color@0.2.3" args=["cli-color@0.2.3",null]
+192 verbose parsed url { protocol: null,
+192 verbose parsed url   slashes: null,
+192 verbose parsed url   auth: null,
+192 verbose parsed url   host: null,
+192 verbose parsed url   port: null,
+192 verbose parsed url   hostname: null,
+192 verbose parsed url   hash: null,
+192 verbose parsed url   search: null,
+192 verbose parsed url   query: null,
+192 verbose parsed url   pathname: 'cli-color@0.2.3',
+192 verbose parsed url   path: 'cli-color@0.2.3',
+192 verbose parsed url   href: 'cli-color@0.2.3' }
+193 verbose cache add [ 'minimist@0.0.8', null ]
+194 verbose cache add name=undefined spec="minimist@0.0.8" args=["minimist@0.0.8",null]
+195 verbose parsed url { protocol: null,
+195 verbose parsed url   slashes: null,
+195 verbose parsed url   auth: null,
+195 verbose parsed url   host: null,
+195 verbose parsed url   port: null,
+195 verbose parsed url   hostname: null,
+195 verbose parsed url   hash: null,
+195 verbose parsed url   search: null,
+195 verbose parsed url   query: null,
+195 verbose parsed url   pathname: 'minimist@0.0.8',
+195 verbose parsed url   path: 'minimist@0.0.8',
+195 verbose parsed url   href: 'minimist@0.0.8' }
+196 verbose cache add name="cli-color" spec="0.2.3" args=["cli-color","0.2.3"]
+197 verbose parsed url { protocol: null,
+197 verbose parsed url   slashes: null,
+197 verbose parsed url   auth: null,
+197 verbose parsed url   host: null,
+197 verbose parsed url   port: null,
+197 verbose parsed url   hostname: null,
+197 verbose parsed url   hash: null,
+197 verbose parsed url   search: null,
+197 verbose parsed url   query: null,
+197 verbose parsed url   pathname: '0.2.3',
+197 verbose parsed url   path: '0.2.3',
+197 verbose parsed url   href: '0.2.3' }
+198 verbose addNamed [ 'cli-color', '0.2.3' ]
+199 verbose addNamed [ '0.2.3', '0.2.3' ]
+200 silly lockFile c1648217-cli-color-0-2-3 cli-color@0.2.3
+201 verbose lock cli-color@0.2.3 /home/roinand/.npm/c1648217-cli-color-0-2-3.lock
+202 verbose cache add [ 'cli-table@0.3.0', null ]
+203 verbose cache add name=undefined spec="cli-table@0.3.0" args=["cli-table@0.3.0",null]
+204 verbose parsed url { protocol: null,
+204 verbose parsed url   slashes: null,
+204 verbose parsed url   auth: null,
+204 verbose parsed url   host: null,
+204 verbose parsed url   port: null,
+204 verbose parsed url   hostname: null,
+204 verbose parsed url   hash: null,
+204 verbose parsed url   search: null,
+204 verbose parsed url   query: null,
+204 verbose parsed url   pathname: 'cli-table@0.3.0',
+204 verbose parsed url   path: 'cli-table@0.3.0',
+204 verbose parsed url   href: 'cli-table@0.3.0' }
+205 verbose cache add [ 'underscore@1.3.3', null ]
+206 verbose cache add name=undefined spec="underscore@1.3.3" args=["underscore@1.3.3",null]
+207 verbose parsed url { protocol: null,
+207 verbose parsed url   slashes: null,
+207 verbose parsed url   auth: null,
+207 verbose parsed url   host: null,
+207 verbose parsed url   port: null,
+207 verbose parsed url   hostname: null,
+207 verbose parsed url   hash: null,
+207 verbose parsed url   search: null,
+207 verbose parsed url   query: null,
+207 verbose parsed url   pathname: 'underscore@1.3.3',
+207 verbose parsed url   path: 'underscore@1.3.3',
+207 verbose parsed url   href: 'underscore@1.3.3' }
+208 verbose cache add [ 'ejs@0.8.5', null ]
+209 verbose cache add name=undefined spec="ejs@0.8.5" args=["ejs@0.8.5",null]
+210 verbose parsed url { protocol: null,
+210 verbose parsed url   slashes: null,
+210 verbose parsed url   auth: null,
+210 verbose parsed url   host: null,
+210 verbose parsed url   port: null,
+210 verbose parsed url   hostname: null,
+210 verbose parsed url   hash: null,
+210 verbose parsed url   search: null,
+210 verbose parsed url   query: null,
+210 verbose parsed url   pathname: 'ejs@0.8.5',
+210 verbose parsed url   path: 'ejs@0.8.5',
+210 verbose parsed url   href: 'ejs@0.8.5' }
+211 verbose cache add name="minimist" spec="0.0.8" args=["minimist","0.0.8"]
+212 verbose parsed url { protocol: null,
+212 verbose parsed url   slashes: null,
+212 verbose parsed url   auth: null,
+212 verbose parsed url   host: null,
+212 verbose parsed url   port: null,
+212 verbose parsed url   hostname: null,
+212 verbose parsed url   hash: null,
+212 verbose parsed url   search: null,
+212 verbose parsed url   query: null,
+212 verbose parsed url   pathname: '0.0.8',
+212 verbose parsed url   path: '0.0.8',
+212 verbose parsed url   href: '0.0.8' }
+213 verbose addNamed [ 'minimist', '0.0.8' ]
+214 verbose addNamed [ '0.0.8', '0.0.8' ]
+215 silly lockFile 22c6b485-minimist-0-0-8 minimist@0.0.8
+216 verbose lock minimist@0.0.8 /home/roinand/.npm/22c6b485-minimist-0-0-8.lock
+217 verbose cache add name="cli-table" spec="0.3.0" args=["cli-table","0.3.0"]
+218 verbose parsed url { protocol: null,
+218 verbose parsed url   slashes: null,
+218 verbose parsed url   auth: null,
+218 verbose parsed url   host: null,
+218 verbose parsed url   port: null,
+218 verbose parsed url   hostname: null,
+218 verbose parsed url   hash: null,
+218 verbose parsed url   search: null,
+218 verbose parsed url   query: null,
+218 verbose parsed url   pathname: '0.3.0',
+218 verbose parsed url   path: '0.3.0',
+218 verbose parsed url   href: '0.3.0' }
+219 verbose addNamed [ 'cli-table', '0.3.0' ]
+220 verbose addNamed [ '0.3.0', '0.3.0' ]
+221 silly lockFile 16fa97d1-cli-table-0-3-0 cli-table@0.3.0
+222 verbose lock cli-table@0.3.0 /home/roinand/.npm/16fa97d1-cli-table-0-3-0.lock
+223 verbose cache add name="underscore" spec="1.3.3" args=["underscore","1.3.3"]
+224 verbose parsed url { protocol: null,
+224 verbose parsed url   slashes: null,
+224 verbose parsed url   auth: null,
+224 verbose parsed url   host: null,
+224 verbose parsed url   port: null,
+224 verbose parsed url   hostname: null,
+224 verbose parsed url   hash: null,
+224 verbose parsed url   search: null,
+224 verbose parsed url   query: null,
+224 verbose parsed url   pathname: '1.3.3',
+224 verbose parsed url   path: '1.3.3',
+224 verbose parsed url   href: '1.3.3' }
+225 verbose addNamed [ 'underscore', '1.3.3' ]
+226 verbose addNamed [ '1.3.3', '1.3.3' ]
+227 silly lockFile 99e765c4-underscore-1-3-3 underscore@1.3.3
+228 verbose lock underscore@1.3.3 /home/roinand/.npm/99e765c4-underscore-1-3-3.lock
+229 verbose cache add [ 'fibers@1.0.5', null ]
+230 verbose cache add name=undefined spec="fibers@1.0.5" args=["fibers@1.0.5",null]
+231 verbose parsed url { protocol: null,
+231 verbose parsed url   slashes: null,
+231 verbose parsed url   auth: null,
+231 verbose parsed url   host: null,
+231 verbose parsed url   port: null,
+231 verbose parsed url   hostname: null,
+231 verbose parsed url   hash: null,
+231 verbose parsed url   search: null,
+231 verbose parsed url   query: null,
+231 verbose parsed url   pathname: 'fibers@1.0.5',
+231 verbose parsed url   path: 'fibers@1.0.5',
+231 verbose parsed url   href: 'fibers@1.0.5' }
+232 verbose cache add [ 'single-line-log@0.4.1', null ]
+233 verbose cache add name=undefined spec="single-line-log@0.4.1" args=["single-line-log@0.4.1",null]
+234 verbose parsed url { protocol: null,
+234 verbose parsed url   slashes: null,
+234 verbose parsed url   auth: null,
+234 verbose parsed url   host: null,
+234 verbose parsed url   port: null,
+234 verbose parsed url   hostname: null,
+234 verbose parsed url   hash: null,
+234 verbose parsed url   search: null,
+234 verbose parsed url   query: null,
+234 verbose parsed url   pathname: 'single-line-log@0.4.1',
+234 verbose parsed url   path: 'single-line-log@0.4.1',
+234 verbose parsed url   href: 'single-line-log@0.4.1' }
+235 verbose cache add name="ejs" spec="0.8.5" args=["ejs","0.8.5"]
+236 verbose parsed url { protocol: null,
+236 verbose parsed url   slashes: null,
+236 verbose parsed url   auth: null,
+236 verbose parsed url   host: null,
+236 verbose parsed url   port: null,
+236 verbose parsed url   hostname: null,
+236 verbose parsed url   hash: null,
+236 verbose parsed url   search: null,
+236 verbose parsed url   query: null,
+236 verbose parsed url   pathname: '0.8.5',
+236 verbose parsed url   path: '0.8.5',
+236 verbose parsed url   href: '0.8.5' }
+237 verbose addNamed [ 'ejs', '0.8.5' ]
+238 verbose addNamed [ '0.8.5', '0.8.5' ]
+239 silly lockFile c36c003a-ejs-0-8-5 ejs@0.8.5
+240 verbose lock ejs@0.8.5 /home/roinand/.npm/c36c003a-ejs-0-8-5.lock
+241 verbose cache add name="fibers" spec="1.0.5" args=["fibers","1.0.5"]
+242 verbose parsed url { protocol: null,
+242 verbose parsed url   slashes: null,
+242 verbose parsed url   auth: null,
+242 verbose parsed url   host: null,
+242 verbose parsed url   port: null,
+242 verbose parsed url   hostname: null,
+242 verbose parsed url   hash: null,
+242 verbose parsed url   search: null,
+242 verbose parsed url   query: null,
+242 verbose parsed url   pathname: '1.0.5',
+242 verbose parsed url   path: '1.0.5',
+242 verbose parsed url   href: '1.0.5' }
+243 verbose addNamed [ 'fibers', '1.0.5' ]
+244 verbose addNamed [ '1.0.5', '1.0.5' ]
+245 silly lockFile 1eddb9fb-fibers-1-0-5 fibers@1.0.5
+246 verbose lock fibers@1.0.5 /home/roinand/.npm/1eddb9fb-fibers-1-0-5.lock
+247 verbose cache add [ 'shell-source@1.0.1', null ]
+248 verbose cache add name=undefined spec="shell-source@1.0.1" args=["shell-source@1.0.1",null]
+249 verbose parsed url { protocol: null,
+249 verbose parsed url   slashes: null,
+249 verbose parsed url   auth: null,
+249 verbose parsed url   host: null,
+249 verbose parsed url   port: null,
+249 verbose parsed url   hostname: null,
+249 verbose parsed url   hash: null,
+249 verbose parsed url   search: null,
+249 verbose parsed url   query: null,
+249 verbose parsed url   pathname: 'shell-source@1.0.1',
+249 verbose parsed url   path: 'shell-source@1.0.1',
+249 verbose parsed url   href: 'shell-source@1.0.1' }
+250 verbose cache add [ 'xtend@^4.0.0', null ]
+251 verbose cache add name=undefined spec="xtend@^4.0.0" args=["xtend@^4.0.0",null]
+252 verbose parsed url { protocol: null,
+252 verbose parsed url   slashes: null,
+252 verbose parsed url   auth: null,
+252 verbose parsed url   host: null,
+252 verbose parsed url   port: null,
+252 verbose parsed url   hostname: null,
+252 verbose parsed url   hash: null,
+252 verbose parsed url   search: null,
+252 verbose parsed url   query: null,
+252 verbose parsed url   pathname: 'xtend@^4.0.0',
+252 verbose parsed url   path: 'xtend@^4.0.0',
+252 verbose parsed url   href: 'xtend@^4.0.0' }
+253 verbose cache add name="single-line-log" spec="0.4.1" args=["single-line-log","0.4.1"]
+254 verbose parsed url { protocol: null,
+254 verbose parsed url   slashes: null,
+254 verbose parsed url   auth: null,
+254 verbose parsed url   host: null,
+254 verbose parsed url   port: null,
+254 verbose parsed url   hostname: null,
+254 verbose parsed url   hash: null,
+254 verbose parsed url   search: null,
+254 verbose parsed url   query: null,
+254 verbose parsed url   pathname: '0.4.1',
+254 verbose parsed url   path: '0.4.1',
+254 verbose parsed url   href: '0.4.1' }
+255 verbose addNamed [ 'single-line-log', '0.4.1' ]
+256 verbose addNamed [ '0.4.1', '0.4.1' ]
+257 silly lockFile 919c2ffe-single-line-log-0-4-1 single-line-log@0.4.1
+258 verbose lock single-line-log@0.4.1 /home/roinand/.npm/919c2ffe-single-line-log-0-4-1.lock
+259 verbose cache add name="shell-source" spec="1.0.1" args=["shell-source","1.0.1"]
+260 verbose parsed url { protocol: null,
+260 verbose parsed url   slashes: null,
+260 verbose parsed url   auth: null,
+260 verbose parsed url   host: null,
+260 verbose parsed url   port: null,
+260 verbose parsed url   hostname: null,
+260 verbose parsed url   hash: null,
+260 verbose parsed url   search: null,
+260 verbose parsed url   query: null,
+260 verbose parsed url   pathname: '1.0.1',
+260 verbose parsed url   path: '1.0.1',
+260 verbose parsed url   href: '1.0.1' }
+261 verbose addNamed [ 'shell-source', '1.0.1' ]
+262 verbose addNamed [ '1.0.1', '1.0.1' ]
+263 silly lockFile 69fd124c-shell-source-1-0-1 shell-source@1.0.1
+264 verbose lock shell-source@1.0.1 /home/roinand/.npm/69fd124c-shell-source-1-0-1.lock
+265 verbose cache add name="xtend" spec="^4.0.0" args=["xtend","^4.0.0"]
+266 verbose parsed url { protocol: null,
+266 verbose parsed url   slashes: null,
+266 verbose parsed url   auth: null,
+266 verbose parsed url   host: null,
+266 verbose parsed url   port: null,
+266 verbose parsed url   hostname: null,
+266 verbose parsed url   hash: null,
+266 verbose parsed url   search: null,
+266 verbose parsed url   query: null,
+266 verbose parsed url   pathname: '^4.0.0',
+266 verbose parsed url   path: '^4.0.0',
+266 verbose parsed url   href: '^4.0.0' }
+267 verbose addNamed [ 'xtend', '^4.0.0' ]
+268 verbose addNamed [ null, '>=4.0.0-0 <5.0.0-0' ]
+269 silly lockFile 409d9c3a-xtend-4-0-0 xtend@^4.0.0
+270 verbose lock xtend@^4.0.0 /home/roinand/.npm/409d9c3a-xtend-4-0-0.lock
+271 silly addNameRange { name: 'xtend', range: '>=4.0.0-0 <5.0.0-0', hasData: false }
+272 verbose request where is /cli-color
+273 verbose request registry https://registry.npmjs.org/
+274 verbose url raw /cli-color
+275 verbose url resolving [ 'https://registry.npmjs.org/', './cli-color' ]
+276 verbose url resolved https://registry.npmjs.org/cli-color
+277 verbose request where is https://registry.npmjs.org/cli-color
+278 info trying registry request attempt 1 at 15:55:14
+279 verbose etag "EE5TZUOXPL2X09JU2BCKKF4X8"
+280 http GET https://registry.npmjs.org/cli-color
+281 verbose request where is /fibers
+282 verbose request registry https://registry.npmjs.org/
+283 verbose url raw /fibers
+284 verbose url resolving [ 'https://registry.npmjs.org/', './fibers' ]
+285 verbose url resolved https://registry.npmjs.org/fibers
+286 verbose request where is https://registry.npmjs.org/fibers
+287 info trying registry request attempt 1 at 15:55:14
+288 verbose etag "C420CNIJWVRXVOHXW03PXP4SC"
+289 http GET https://registry.npmjs.org/fibers
+290 verbose request where is /single-line-log
+291 verbose request registry https://registry.npmjs.org/
+292 verbose url raw /single-line-log
+293 verbose url resolving [ 'https://registry.npmjs.org/', './single-line-log' ]
+294 verbose url resolved https://registry.npmjs.org/single-line-log
+295 verbose request where is https://registry.npmjs.org/single-line-log
+296 info trying registry request attempt 1 at 15:55:14
+297 verbose etag "75LJ4N0KFHK7G43IL1T2ZOAQF"
+298 http GET https://registry.npmjs.org/single-line-log
+299 verbose request where is /shell-source
+300 verbose request registry https://registry.npmjs.org/
+301 verbose url raw /shell-source
+302 verbose url resolving [ 'https://registry.npmjs.org/', './shell-source' ]
+303 verbose url resolved https://registry.npmjs.org/shell-source
+304 verbose request where is https://registry.npmjs.org/shell-source
+305 info trying registry request attempt 1 at 15:55:14
+306 verbose etag "14QVACNTVAXTZOUGLD4K7NRUD"
+307 http GET https://registry.npmjs.org/shell-source
+308 verbose request where is /xtend
+309 verbose request registry https://registry.npmjs.org/
+310 verbose url raw /xtend
+311 verbose url resolving [ 'https://registry.npmjs.org/', './xtend' ]
+312 verbose url resolved https://registry.npmjs.org/xtend
+313 verbose request where is https://registry.npmjs.org/xtend
+314 info trying registry request attempt 1 at 15:55:14
+315 verbose etag "1IRSKRUZQ2WOW7CNER4BR27DS"
+316 http GET https://registry.npmjs.org/xtend
+317 verbose request where is /cli-table
+318 verbose request registry https://registry.npmjs.org/
+319 verbose url raw /cli-table
+320 verbose url resolving [ 'https://registry.npmjs.org/', './cli-table' ]
+321 verbose url resolved https://registry.npmjs.org/cli-table
+322 verbose request where is https://registry.npmjs.org/cli-table
+323 info trying registry request attempt 1 at 15:55:14
+324 verbose etag "UWK8T5J4VFRWISTAFA1N7O4S"
+325 http GET https://registry.npmjs.org/cli-table
+326 verbose request where is /ejs
+327 verbose request registry https://registry.npmjs.org/
+328 verbose url raw /ejs
+329 verbose url resolving [ 'https://registry.npmjs.org/', './ejs' ]
+330 verbose url resolved https://registry.npmjs.org/ejs
+331 verbose request where is https://registry.npmjs.org/ejs
+332 info trying registry request attempt 1 at 15:55:14
+333 verbose etag "4UGZ4FJ4NQDAW6DRA7D9R4DGA"
+334 http GET https://registry.npmjs.org/ejs
+335 verbose request where is /underscore
+336 verbose request registry https://registry.npmjs.org/
+337 verbose url raw /underscore
+338 verbose url resolving [ 'https://registry.npmjs.org/', './underscore' ]
+339 verbose url resolved https://registry.npmjs.org/underscore
+340 verbose request where is https://registry.npmjs.org/underscore
+341 info trying registry request attempt 1 at 15:55:14
+342 verbose etag "7C1BRLYGKR5V8HTCKJBBHI6FQ"
+343 http GET https://registry.npmjs.org/underscore
+344 verbose request where is /minimist
+345 verbose request registry https://registry.npmjs.org/
+346 verbose url raw /minimist
+347 verbose url resolving [ 'https://registry.npmjs.org/', './minimist' ]
+348 verbose url resolved https://registry.npmjs.org/minimist
+349 verbose request where is https://registry.npmjs.org/minimist
+350 info trying registry request attempt 1 at 15:55:14
+351 verbose etag "4N0O8C0G7I4B5F7C59JAIL5NM"
+352 http GET https://registry.npmjs.org/minimist
+353 http 304 https://registry.npmjs.org/single-line-log
+354 silly registry.get cb [ 304,
+354 silly registry.get   { date: 'Mon, 13 Apr 2015 07:55:15 GMT',
+354 silly registry.get     server: 'Apache',
+354 silly registry.get     via: '1.1 varnish',
+354 silly registry.get     'last-modified': 'Mon, 13 Apr 2015 07:55:16 GMT',
+354 silly registry.get     'cache-control': 'max-age=60',
+354 silly registry.get     etag: '"75LJ4N0KFHK7G43IL1T2ZOAQF"',
+354 silly registry.get     age: '0',
+354 silly registry.get     'x-served-by': 'cache-sjc3122-SJC',
+354 silly registry.get     'x-cache': 'HIT',
+354 silly registry.get     'x-cache-hits': '1',
+354 silly registry.get     'x-timer': 'S1428911715.854345,VS0,VE151',
+354 silly registry.get     vary: 'Accept',
+354 silly registry.get     'content-length': '0',
+354 silly registry.get     'keep-alive': 'timeout=10, max=50',
+354 silly registry.get     connection: 'Keep-Alive' } ]
+355 verbose etag https://registry.npmjs.org/single-line-log from cache
+356 silly lockFile 919c2ffe-single-line-log-0-4-1 single-line-log@0.4.1
+357 silly lockFile 919c2ffe-single-line-log-0-4-1 single-line-log@0.4.1
+358 http 304 https://registry.npmjs.org/cli-color
+359 silly registry.get cb [ 304,
+359 silly registry.get   { date: 'Mon, 13 Apr 2015 07:55:15 GMT',
+359 silly registry.get     server: 'Apache',
+359 silly registry.get     via: '1.1 varnish',
+359 silly registry.get     'last-modified': 'Mon, 13 Apr 2015 07:55:16 GMT',
+359 silly registry.get     'cache-control': 'max-age=60',
+359 silly registry.get     etag: '"EE5TZUOXPL2X09JU2BCKKF4X8"',
+359 silly registry.get     age: '0',
+359 silly registry.get     'x-served-by': 'cache-sjc3120-SJC',
+359 silly registry.get     'x-cache': 'HIT',
+359 silly registry.get     'x-cache-hits': '1',
+359 silly registry.get     'x-timer': 'S1428911715.712917,VS0,VE346',
+359 silly registry.get     vary: 'Accept',
+359 silly registry.get     'content-length': '0',
+359 silly registry.get     'keep-alive': 'timeout=10, max=50',
+359 silly registry.get     connection: 'Keep-Alive' } ]
+360 verbose etag https://registry.npmjs.org/cli-color from cache
+361 silly lockFile c1648217-cli-color-0-2-3 cli-color@0.2.3
+362 silly lockFile c1648217-cli-color-0-2-3 cli-color@0.2.3
+363 http 304 https://registry.npmjs.org/ejs
+364 silly registry.get cb [ 304,
+364 silly registry.get   { date: 'Mon, 13 Apr 2015 07:55:16 GMT',
+364 silly registry.get     server: 'Apache',
+364 silly registry.get     via: '1.1 varnish',
+364 silly registry.get     'last-modified': 'Mon, 13 Apr 2015 07:55:16 GMT',
+364 silly registry.get     'cache-control': 'max-age=60',
+364 silly registry.get     etag: '"4UGZ4FJ4NQDAW6DRA7D9R4DGA"',
+364 silly registry.get     age: '60',
+364 silly registry.get     'x-served-by': 'cache-sjc3120-SJC',
+364 silly registry.get     'x-cache': 'HIT',
+364 silly registry.get     'x-cache-hits': '1',
+364 silly registry.get     'x-timer': 'S1428911716.285060,VS0,VE0',
+364 silly registry.get     vary: 'Accept',
+364 silly registry.get     'content-length': '0',
+364 silly registry.get     'keep-alive': 'timeout=10, max=49',
+364 silly registry.get     connection: 'Keep-Alive' } ]
+365 verbose etag https://registry.npmjs.org/ejs from cache
+366 http 304 https://registry.npmjs.org/cli-table
+367 silly registry.get cb [ 304,
+367 silly registry.get   { date: 'Mon, 13 Apr 2015 07:55:16 GMT',
+367 silly registry.get     server: 'Apache',
+367 silly registry.get     via: '1.1 varnish',
+367 silly registry.get     'last-modified': 'Mon, 13 Apr 2015 07:55:16 GMT',
+367 silly registry.get     'cache-control': 'max-age=60',
+367 silly registry.get     etag: '"UWK8T5J4VFRWISTAFA1N7O4S"',
+367 silly registry.get     age: '0',
+367 silly registry.get     'x-served-by': 'cache-sjc3122-SJC',
+367 silly registry.get     'x-cache': 'HIT',
+367 silly registry.get     'x-cache-hits': '1',
+367 silly registry.get     'x-timer': 'S1428911716.228679,VS0,VE85',
+367 silly registry.get     vary: 'Accept',
+367 silly registry.get     'content-length': '0',
+367 silly registry.get     'keep-alive': 'timeout=10, max=49',
+367 silly registry.get     connection: 'Keep-Alive' } ]
+368 verbose etag https://registry.npmjs.org/cli-table from cache
+369 silly lockFile c36c003a-ejs-0-8-5 ejs@0.8.5
+370 silly lockFile c36c003a-ejs-0-8-5 ejs@0.8.5
+371 silly lockFile 16fa97d1-cli-table-0-3-0 cli-table@0.3.0
+372 silly lockFile 16fa97d1-cli-table-0-3-0 cli-table@0.3.0
+373 http 304 https://registry.npmjs.org/shell-source
+374 silly registry.get cb [ 304,
+374 silly registry.get   { date: 'Mon, 13 Apr 2015 07:55:15 GMT',
+374 silly registry.get     server: 'Apache',
+374 silly registry.get     via: '1.1 varnish',
+374 silly registry.get     'last-modified': 'Mon, 13 Apr 2015 07:55:15 GMT',
+374 silly registry.get     'cache-control': 'max-age=60',
+374 silly registry.get     etag: '"14QVACNTVAXTZOUGLD4K7NRUD"',
+374 silly registry.get     age: '0',
+374 silly registry.get     'x-served-by': 'cache-sjc3135-SJC',
+374 silly registry.get     'x-cache': 'MISS',
+374 silly registry.get     'x-cache-hits': '0',
+374 silly registry.get     'x-timer': 'S1428911715.725139,VS0,VE171',
+374 silly registry.get     vary: 'Accept',
+374 silly registry.get     'content-length': '0',
+374 silly registry.get     'keep-alive': 'timeout=10, max=50',
+374 silly registry.get     connection: 'Keep-Alive' } ]
+375 verbose etag https://registry.npmjs.org/shell-source from cache
+376 silly lockFile 69fd124c-shell-source-1-0-1 shell-source@1.0.1
+377 silly lockFile 69fd124c-shell-source-1-0-1 shell-source@1.0.1
+378 http 304 https://registry.npmjs.org/underscore
+379 silly registry.get cb [ 304,
+379 silly registry.get   { date: 'Mon, 13 Apr 2015 07:55:16 GMT',
+379 silly registry.get     server: 'Apache',
+379 silly registry.get     via: '1.1 varnish',
+379 silly registry.get     'last-modified': 'Mon, 13 Apr 2015 07:55:16 GMT',
+379 silly registry.get     'cache-control': 'max-age=60',
+379 silly registry.get     etag: '"7C1BRLYGKR5V8HTCKJBBHI6FQ"',
+379 silly registry.get     age: '56',
+379 silly registry.get     'x-served-by': 'cache-sjc3120-SJC',
+379 silly registry.get     'x-cache': 'HIT',
+379 silly registry.get     'x-cache-hits': '1',
+379 silly registry.get     'x-timer': 'S1428911716.511324,VS0,VE0',
+379 silly registry.get     vary: 'Accept',
+379 silly registry.get     'content-length': '0',
+379 silly registry.get     'keep-alive': 'timeout=10, max=48',
+379 silly registry.get     connection: 'Keep-Alive' } ]
+380 verbose etag https://registry.npmjs.org/underscore from cache
+381 silly lockFile 99e765c4-underscore-1-3-3 underscore@1.3.3
+382 silly lockFile 99e765c4-underscore-1-3-3 underscore@1.3.3
+383 http 304 https://registry.npmjs.org/xtend
+384 silly registry.get cb [ 304,
+384 silly registry.get   { date: 'Mon, 13 Apr 2015 07:55:16 GMT',
+384 silly registry.get     server: 'Apache',
+384 silly registry.get     via: '1.1 varnish',
+384 silly registry.get     'last-modified': 'Mon, 13 Apr 2015 07:54:17 GMT',
+384 silly registry.get     'cache-control': 'max-age=60',
+384 silly registry.get     etag: '"1IRSKRUZQ2WOW7CNER4BR27DS"',
+384 silly registry.get     age: '59',
+384 silly registry.get     'x-served-by': 'cache-sjc3129-SJC',
+384 silly registry.get     'x-cache': 'HIT',
+384 silly registry.get     'x-cache-hits': '2',
+384 silly registry.get     'x-timer': 'S1428911716.000512,VS0,VE0',
+384 silly registry.get     vary: 'Accept',
+384 silly registry.get     'content-length': '0',
+384 silly registry.get     'keep-alive': 'timeout=10, max=50',
+384 silly registry.get     connection: 'Keep-Alive' } ]
+385 verbose etag https://registry.npmjs.org/xtend from cache
+386 silly addNameRange number 2 { name: 'xtend', range: '>=4.0.0-0 <5.0.0-0', hasData: true }
+387 silly addNameRange versions [ 'xtend',
+387 silly addNameRange   [ '1.0.0',
+387 silly addNameRange     '1.0.1',
+387 silly addNameRange     '1.0.2',
+387 silly addNameRange     '1.0.3',
+387 silly addNameRange     '2.0.1',
+387 silly addNameRange     '2.0.2',
+387 silly addNameRange     '2.0.3',
+387 silly addNameRange     '2.0.4',
+387 silly addNameRange     '2.0.5',
+387 silly addNameRange     '2.0.6',
+387 silly addNameRange     '2.1.1',
+387 silly addNameRange     '2.1.2',
+387 silly addNameRange     '2.2.0',
+387 silly addNameRange     '3.0.0',
+387 silly addNameRange     '4.0.0' ] ]
+388 verbose addNamed [ 'xtend', '4.0.0' ]
+389 verbose addNamed [ '4.0.0', '4.0.0' ]
+390 silly lockFile cf5db8a8-xtend-4-0-0 xtend@4.0.0
+391 verbose lock xtend@4.0.0 /home/roinand/.npm/cf5db8a8-xtend-4-0-0.lock
+392 silly lockFile cf5db8a8-xtend-4-0-0 xtend@4.0.0
+393 silly lockFile cf5db8a8-xtend-4-0-0 xtend@4.0.0
+394 silly lockFile 409d9c3a-xtend-4-0-0 xtend@^4.0.0
+395 silly lockFile 409d9c3a-xtend-4-0-0 xtend@^4.0.0
+396 http 304 https://registry.npmjs.org/fibers
+397 silly registry.get cb [ 304,
+397 silly registry.get   { date: 'Mon, 13 Apr 2015 07:55:16 GMT',
+397 silly registry.get     server: 'Apache',
+397 silly registry.get     via: '1.1 varnish',
+397 silly registry.get     'last-modified': 'Mon, 13 Apr 2015 07:55:16 GMT',
+397 silly registry.get     'cache-control': 'max-age=60',
+397 silly registry.get     etag: '"C420CNIJWVRXVOHXW03PXP4SC"',
+397 silly registry.get     age: '0',
+397 silly registry.get     'x-served-by': 'cache-sjc3128-SJC',
+397 silly registry.get     'x-cache': 'HIT',
+397 silly registry.get     'x-cache-hits': '1',
+397 silly registry.get     'x-timer': 'S1428911716.525415,VS0,VE35',
+397 silly registry.get     vary: 'Accept',
+397 silly registry.get     'content-length': '0',
+397 silly registry.get     'keep-alive': 'timeout=10, max=50',
+397 silly registry.get     connection: 'Keep-Alive' } ]
+398 verbose etag https://registry.npmjs.org/fibers from cache
+399 silly lockFile 1eddb9fb-fibers-1-0-5 fibers@1.0.5
+400 silly lockFile 1eddb9fb-fibers-1-0-5 fibers@1.0.5
+401 http 200 https://registry.npmjs.org/minimist
+402 silly registry.get cb [ 200,
+402 silly registry.get   { date: 'Mon, 13 Apr 2015 07:55:16 GMT',
+402 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+402 silly registry.get     etag: '"7ORGH57XGQ5QN9MEWA7F68YRZ"',
+402 silly registry.get     'content-type': 'application/json',
+402 silly registry.get     'cache-control': 'max-age=60',
+402 silly registry.get     'content-length': '22354',
+402 silly registry.get     'accept-ranges': 'bytes',
+402 silly registry.get     via: '1.1 varnish',
+402 silly registry.get     age: '7',
+402 silly registry.get     'x-served-by': 'cache-sjc3122-SJC',
+402 silly registry.get     'x-cache': 'HIT',
+402 silly registry.get     'x-cache-hits': '1',
+402 silly registry.get     'x-timer': 'S1428911716.533674,VS0,VE0',
+402 silly registry.get     vary: 'Accept',
+402 silly registry.get     'keep-alive': 'timeout=10, max=48',
+402 silly registry.get     connection: 'Keep-Alive' } ]
+403 silly lockFile f7b98dc7--org-minimist-minimist-0-0-8-tgz https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz
+404 verbose lock https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz /home/roinand/.npm/f7b98dc7--org-minimist-minimist-0-0-8-tgz.lock
+405 verbose addRemoteTarball [ 'https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz',
+405 verbose addRemoteTarball   '857fcabfc3397d2625b8228262e86aa7a011b05d' ]
+406 info retry fetch attempt 1 at 15:55:18
+407 verbose fetch to= /tmp/npm-19149-mWDXcmCF/registry.npmjs.org/minimist/-/minimist-0.0.8.tgz
+408 http GET https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz
+409 http 200 https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz
+410 silly lockFile f7b98dc7--org-minimist-minimist-0-0-8-tgz https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz
+411 silly lockFile f7b98dc7--org-minimist-minimist-0-0-8-tgz https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz
+412 silly lockFile 22c6b485-minimist-0-0-8 minimist@0.0.8
+413 silly lockFile 22c6b485-minimist-0-0-8 minimist@0.0.8
+414 silly resolved [ { name: 'single-line-log',
+414 silly resolved     description: 'Keep writing to the same line in the terminal. Very useful when you write progress bars, or a status message during longer operations',
+414 silly resolved     keywords:
+414 silly resolved      [ 'single',
+414 silly resolved        'line',
+414 silly resolved        'log',
+414 silly resolved        'output',
+414 silly resolved        'overwrite',
+414 silly resolved        'collapse',
+414 silly resolved        'stdout',
+414 silly resolved        'terminal',
+414 silly resolved        'tty',
+414 silly resolved        'cli',
+414 silly resolved        'shell' ],
+414 silly resolved     version: '0.4.1',
+414 silly resolved     repository:
+414 silly resolved      { type: 'git',
+414 silly resolved        url: 'git://github.com/freeall/single-line-log.git' },
+414 silly resolved     author: { name: 'Tobias Baunbæk', email: 'freeall@gmail.com' },
+414 silly resolved     bugs: { url: 'https://github.com/freeall/single-line-log/issues' },
+414 silly resolved     homepage: 'https://github.com/freeall/single-line-log',
+414 silly resolved     _id: 'single-line-log@0.4.1',
+414 silly resolved     _shasum: '87a55649f749d783ec0dcd804e8140d9873c7cee',
+414 silly resolved     _from: 'single-line-log@0.4.1',
+414 silly resolved     _npmVersion: '1.4.9',
+414 silly resolved     _npmUser: { name: 'freeall', email: 'freeall@gmail.com' },
+414 silly resolved     maintainers: [ [Object] ],
+414 silly resolved     dist:
+414 silly resolved      { shasum: '87a55649f749d783ec0dcd804e8140d9873c7cee',
+414 silly resolved        tarball: 'http://registry.npmjs.org/single-line-log/-/single-line-log-0.4.1.tgz' },
+414 silly resolved     directories: {},
+414 silly resolved     _resolved: 'https://registry.npmjs.org/single-line-log/-/single-line-log-0.4.1.tgz',
+414 silly resolved     readme: 'ERROR: No README data found!' },
+414 silly resolved   { name: 'cli-color',
+414 silly resolved     version: '0.2.3',
+414 silly resolved     description: 'Colors, formatting and other tools for the console',
+414 silly resolved     keywords:
+414 silly resolved      [ 'ansi',
+414 silly resolved        'color',
+414 silly resolved        'console',
+414 silly resolved        'terminal',
+414 silly resolved        'cli',
+414 silly resolved        'shell',
+414 silly resolved        'log',
+414 silly resolved        'logging',
+414 silly resolved        'xterm' ],
+414 silly resolved     author:
+414 silly resolved      { name: 'Mariusz Nowak',
+414 silly resolved        email: 'medikoo+cli-color@medikoo.com',
+414 silly resolved        url: 'http://www.medikoo.com/' },
+414 silly resolved     main: 'lib',
+414 silly resolved     repository: { type: 'git', url: 'git://github.com/medikoo/cli-color.git' },
+414 silly resolved     bugs:
+414 silly resolved      { url: 'https://github.com/medikoo/cli-color/issues',
+414 silly resolved        email: 'medikoo+cli-color@medikoo.com' },
+414 silly resolved     engines: { node: '>=0.1.103' },
+414 silly resolved     dependencies: { 'es5-ext': '~0.9.2', memoizee: '~0.2.5' },
+414 silly resolved     devDependencies: { clock: '~0.1.5', tad: '~0.1.19' },
+414 silly resolved     scripts: { test: 'node ./node_modules/tad/bin/tad lib' },
+414 silly resolved     licence: 'MIT',
+414 silly resolved     _id: 'cli-color@0.2.3',
+414 silly resolved     dist:
+414 silly resolved      { shasum: '0a25ceae5a6a1602be7f77d28563c36700274e88',
+414 silly resolved        tarball: 'http://registry.npmjs.org/cli-color/-/cli-color-0.2.3.tgz' },
+414 silly resolved     _from: 'cli-color@0.2.3',
+414 silly resolved     _npmVersion: '1.3.8',
+414 silly resolved     _npmUser: { name: 'medikoo', email: 'medikoo+npm@medikoo.com' },
+414 silly resolved     maintainers: [ [Object] ],
+414 silly resolved     directories: {},
+414 silly resolved     _shasum: '0a25ceae5a6a1602be7f77d28563c36700274e88',
+414 silly resolved     _resolved: 'https://registry.npmjs.org/cli-color/-/cli-color-0.2.3.tgz',
+414 silly resolved     readme: 'ERROR: No README data found!' },
+414 silly resolved   { name: 'ejs',
+414 silly resolved     description: 'Embedded JavaScript templates',
+414 silly resolved     version: '0.8.5',
+414 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+414 silly resolved     keywords: [ 'template', 'engine', 'ejs' ],
+414 silly resolved     devDependencies: { mocha: '*', should: '*' },
+414 silly resolved     main: './lib/ejs.js',
+414 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/ejs.git' },
+414 silly resolved     scripts: { test: 'mocha --require should --reporter spec' },
+414 silly resolved     bugs: { url: 'https://github.com/visionmedia/ejs/issues' },
+414 silly resolved     homepage: 'https://github.com/visionmedia/ejs',
+414 silly resolved     _id: 'ejs@0.8.5',
+414 silly resolved     dist:
+414 silly resolved      { shasum: '57758f736d6c3025dbfb53f85bd5b93d136b3856',
+414 silly resolved        tarball: 'http://registry.npmjs.org/ejs/-/ejs-0.8.5.tgz' },
+414 silly resolved     _from: 'ejs@0.8.5',
+414 silly resolved     _npmVersion: '1.3.14',
+414 silly resolved     _npmUser: { name: 'tjholowaychuk', email: 'tj@vision-media.ca' },
+414 silly resolved     maintainers: [ [Object] ],
+414 silly resolved     directories: {},
+414 silly resolved     _shasum: '57758f736d6c3025dbfb53f85bd5b93d136b3856',
+414 silly resolved     _resolved: 'https://registry.npmjs.org/ejs/-/ejs-0.8.5.tgz',
+414 silly resolved     readme: 'ERROR: No README data found!' },
+414 silly resolved   { name: 'cli-table',
+414 silly resolved     description: 'Pretty unicode tables for the CLI',
+414 silly resolved     version: '0.3.0',
+414 silly resolved     author: { name: 'Guillermo Rauch', email: 'guillermo@learnboost.com' },
+414 silly resolved     contributors: [ [Object] ],
+414 silly resolved     keywords: [ 'cli', 'colors', 'table' ],
+414 silly resolved     dependencies: { colors: '0.6.2' },
+414 silly resolved     devDependencies: { expresso: '~0.9', should: '~0.6' },
+414 silly resolved     main: './index.js',
+414 silly resolved     engines: { node: '>= 0.2.0' },
+414 silly resolved     _id: 'cli-table@0.3.0',
+414 silly resolved     dist:
+414 silly resolved      { shasum: '44a43c2641667701e084202bff7aa934128aa13e',
+414 silly resolved        tarball: 'http://registry.npmjs.org/cli-table/-/cli-table-0.3.0.tgz' },
+414 silly resolved     _from: 'cli-table@0.3.0',
+414 silly resolved     _npmVersion: '1.3.22',
+414 silly resolved     _npmUser: { name: 'rauchg', email: 'rauchg@gmail.com' },
+414 silly resolved     maintainers: [ [Object] ],
+414 silly resolved     directories: {},
+414 silly resolved     _shasum: '44a43c2641667701e084202bff7aa934128aa13e',
+414 silly resolved     _resolved: 'https://registry.npmjs.org/cli-table/-/cli-table-0.3.0.tgz',
+414 silly resolved     readme: 'ERROR: No README data found!' },
+414 silly resolved   { name: 'shell-source',
+414 silly resolved     version: '1.0.1',
+414 silly resolved     description: 'Source environment variables from a shell script into a Node.js process.',
+414 silly resolved     keywords:
+414 silly resolved      [ 'source',
+414 silly resolved        'shell',
+414 silly resolved        'script',
+414 silly resolved        'environment',
+414 silly resolved        'variables',
+414 silly resolved        'configuration',
+414 silly resolved        'node',
+414 silly resolved        'unix',
+414 silly resolved        'posix' ],
+414 silly resolved     dependencies: { 'concat-stream': '^1.4.7' },
+414 silly resolved     devDependencies:
+414 silly resolved      { coveralls: '^2.11.2',
+414 silly resolved        istanbul: '^0.3.2',
+414 silly resolved        tape: '^3.0.3',
+414 silly resolved        xtend: '^4.0.0' },
+414 silly resolved     scripts:
+414 silly resolved      { test: 'node test',
+414 silly resolved        travis: 'istanbul cover test/index.js --report lcovonly && cat coverage/lcov.info | coveralls' },
+414 silly resolved     repository:
+414 silly resolved      { type: 'git',
+414 silly resolved        url: 'https://github.com/jessetane/shell-source' },
+414 silly resolved     author: { name: 'Jesse Tane', email: 'jesse.tane@gmail.com' },
+414 silly resolved     gitHead: 'ddcd45d47c278f75bbbd1bcf83abf937b99a2f65',
+414 silly resolved     bugs: { url: 'https://github.com/jessetane/shell-source/issues' },
+414 silly resolved     homepage: 'https://github.com/jessetane/shell-source',
+414 silly resolved     _id: 'shell-source@1.0.1',
+414 silly resolved     _shasum: '263fb078c31717ff89a1942a27e4de18c32e269c',
+414 silly resolved     _from: 'shell-source@1.0.1',
+414 silly resolved     _npmVersion: '1.4.28',
+414 silly resolved     _npmUser: { name: 'jessetane', email: 'jesse.tane@gmail.com' },
+414 silly resolved     maintainers: [ [Object] ],
+414 silly resolved     dist:
+414 silly resolved      { shasum: '263fb078c31717ff89a1942a27e4de18c32e269c',
+414 silly resolved        tarball: 'http://registry.npmjs.org/shell-source/-/shell-source-1.0.1.tgz' },
+414 silly resolved     directories: {},
+414 silly resolved     _resolved: 'https://registry.npmjs.org/shell-source/-/shell-source-1.0.1.tgz',
+414 silly resolved     readme: 'ERROR: No README data found!' },
+414 silly resolved   { name: 'underscore',
+414 silly resolved     description: 'JavaScript\'s functional programming helper library.',
+414 silly resolved     homepage: 'http://documentcloud.github.com/underscore/',
+414 silly resolved     keywords: [ 'util', 'functional', 'server', 'client', 'browser' ],
+414 silly resolved     author: { name: 'Jeremy Ashkenas', email: 'jeremy@documentcloud.org' },
+414 silly resolved     repository:
+414 silly resolved      { type: 'git',
+414 silly resolved        url: 'git://github.com/documentcloud/underscore.git' },
+414 silly resolved     main: 'underscore.js',
+414 silly resolved     version: '1.3.3',
+414 silly resolved     _npmUser: { name: 'jashkenas', email: 'jashkenas@gmail.com' },
+414 silly resolved     _id: 'underscore@1.3.3',
+414 silly resolved     dependencies: {},
+414 silly resolved     devDependencies: {},
+414 silly resolved     optionalDependencies: {},
+414 silly resolved     engines: { node: '*' },
+414 silly resolved     _engineSupported: true,
+414 silly resolved     _npmVersion: '1.1.1',
+414 silly resolved     _nodeVersion: 'v0.6.11',
+414 silly resolved     _defaultsLoaded: true,
+414 silly resolved     dist:
+414 silly resolved      { shasum: '47ac53683daf832bfa952e1774417da47817ae42',
+414 silly resolved        tarball: 'http://registry.npmjs.org/underscore/-/underscore-1.3.3.tgz' },
+414 silly resolved     maintainers: [ [Object], [Object] ],
+414 silly resolved     directories: {},
+414 silly resolved     _shasum: '47ac53683daf832bfa952e1774417da47817ae42',
+414 silly resolved     _from: 'underscore@1.3.3',
+414 silly resolved     _resolved: 'https://registry.npmjs.org/underscore/-/underscore-1.3.3.tgz',
+414 silly resolved     bugs: { url: 'https://github.com/documentcloud/underscore/issues' },
+414 silly resolved     readme: 'ERROR: No README data found!' },
+414 silly resolved   { name: 'xtend',
+414 silly resolved     version: '4.0.0',
+414 silly resolved     description: 'extend like a boss',
+414 silly resolved     keywords: [ 'extend', 'merge', 'options', 'opts', 'object', 'array' ],
+414 silly resolved     author: { name: 'Raynos', email: 'raynos2@gmail.com' },
+414 silly resolved     repository: { type: 'git', url: 'git://github.com/Raynos/xtend.git' },
+414 silly resolved     main: 'immutable',
+414 silly resolved     scripts: { test: 'node test' },
+414 silly resolved     dependencies: {},
+414 silly resolved     devDependencies: { tape: '~1.1.0' },
+414 silly resolved     homepage: 'https://github.com/Raynos/xtend',
+414 silly resolved     contributors: [ [Object], [Object] ],
+414 silly resolved     bugs:
+414 silly resolved      { url: 'https://github.com/Raynos/xtend/issues',
+414 silly resolved        email: 'raynos2@gmail.com' },
+414 silly resolved     licenses: [ [Object] ],
+414 silly resolved     testling: { files: 'test.js', browsers: [Object] },
+414 silly resolved     engines: { node: '>=0.4' },
+414 silly resolved     gitHead: '94a95d76154103290533b2c55ffa0fe4be16bfef',
+414 silly resolved     _id: 'xtend@4.0.0',
+414 silly resolved     _shasum: '8bc36ff87aedbe7ce9eaf0bca36b2354a743840f',
+414 silly resolved     _from: 'xtend@^4.0.0',
+414 silly resolved     _npmVersion: '1.4.15',
+414 silly resolved     _npmUser: { name: 'raynos', email: 'raynos2@gmail.com' },
+414 silly resolved     maintainers: [ [Object] ],
+414 silly resolved     dist:
+414 silly resolved      { shasum: '8bc36ff87aedbe7ce9eaf0bca36b2354a743840f',
+414 silly resolved        tarball: 'http://registry.npmjs.org/xtend/-/xtend-4.0.0.tgz' },
+414 silly resolved     directories: {},
+414 silly resolved     _resolved: 'https://registry.npmjs.org/xtend/-/xtend-4.0.0.tgz',
+414 silly resolved     readme: 'ERROR: No README data found!' },
+414 silly resolved   { name: 'fibers',
+414 silly resolved     version: '1.0.5',
+414 silly resolved     description: 'Cooperative multi-tasking for Javascript',
+414 silly resolved     keywords:
+414 silly resolved      [ 'fiber',
+414 silly resolved        'fibers',
+414 silly resolved        'coroutine',
+414 silly resolved        'thread',
+414 silly resolved        'async',
+414 silly resolved        'parallel',
+414 silly resolved        'worker',
+414 silly resolved        'future',
+414 silly resolved        'promise' ],
+414 silly resolved     homepage: 'https://github.com/laverdet/node-fibers',
+414 silly resolved     author:
+414 silly resolved      { name: 'Marcel Laverdet',
+414 silly resolved        email: 'marcel@laverdet.com',
+414 silly resolved        url: 'https://github.com/laverdet/' },
+414 silly resolved     main: 'fibers',
+414 silly resolved     scripts: { install: 'node ./build.js', test: 'node ./test.js' },
+414 silly resolved     repository:
+414 silly resolved      { type: 'git',
+414 silly resolved        url: 'git://github.com/laverdet/node-fibers.git' },
+414 silly resolved     engines: { node: '>=0.5.2' },
+414 silly resolved     gitHead: 'aff726a79af0c9d400ec0fa37be53f23643a4623',
+414 silly resolved     bugs: { url: 'https://github.com/laverdet/node-fibers/issues' },
+414 silly resolved     _id: 'fibers@1.0.5',
+414 silly resolved     _shasum: '3bea1f697d8540bb3904961ad50939bdee1df678',
+414 silly resolved     _from: 'fibers@1.0.5',
+414 silly resolved     _npmVersion: '1.4.28',
+414 silly resolved     _npmUser: { name: 'laverdet', email: 'marcel.npm@laverdet.com' },
+414 silly resolved     maintainers: [ [Object] ],
+414 silly resolved     dist:
+414 silly resolved      { shasum: '3bea1f697d8540bb3904961ad50939bdee1df678',
+414 silly resolved        tarball: 'http://registry.npmjs.org/fibers/-/fibers-1.0.5.tgz' },
+414 silly resolved     directories: {},
+414 silly resolved     _resolved: 'https://registry.npmjs.org/fibers/-/fibers-1.0.5.tgz',
+414 silly resolved     readme: 'ERROR: No README data found!' },
+414 silly resolved   { name: 'minimist',
+414 silly resolved     version: '0.0.8',
+414 silly resolved     description: 'parse argument options',
+414 silly resolved     main: 'index.js',
+414 silly resolved     devDependencies: { tape: '~1.0.4', tap: '~0.4.0' },
+414 silly resolved     scripts: { test: 'tap test/*.js' },
+414 silly resolved     testling: { files: 'test/*.js', browsers: [Object] },
+414 silly resolved     repository: { type: 'git', url: 'git://github.com/substack/minimist.git' },
+414 silly resolved     homepage: 'https://github.com/substack/minimist',
+414 silly resolved     keywords: [ 'argv', 'getopt', 'parser', 'optimist' ],
+414 silly resolved     author:
+414 silly resolved      { name: 'James Halliday',
+414 silly resolved        email: 'mail@substack.net',
+414 silly resolved        url: 'http://substack.net' },
+414 silly resolved     license: 'MIT',
+414 silly resolved     bugs: { url: 'https://github.com/substack/minimist/issues' },
+414 silly resolved     _id: 'minimist@0.0.8',
+414 silly resolved     dist:
+414 silly resolved      { shasum: '857fcabfc3397d2625b8228262e86aa7a011b05d',
+414 silly resolved        tarball: 'http://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz' },
+414 silly resolved     _from: 'minimist@0.0.8',
+414 silly resolved     _npmVersion: '1.4.3',
+414 silly resolved     _npmUser: { name: 'substack', email: 'mail@substack.net' },
+414 silly resolved     maintainers: [ [Object] ],
+414 silly resolved     directories: {},
+414 silly resolved     _shasum: '857fcabfc3397d2625b8228262e86aa7a011b05d',
+414 silly resolved     _resolved: 'https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz' } ]
+415 info install single-line-log@0.4.1 into /usr/local/lib/node_modules/iron-meteor
+416 info install cli-color@0.2.3 into /usr/local/lib/node_modules/iron-meteor
+417 info install ejs@0.8.5 into /usr/local/lib/node_modules/iron-meteor
+418 info install cli-table@0.3.0 into /usr/local/lib/node_modules/iron-meteor
+419 info install shell-source@1.0.1 into /usr/local/lib/node_modules/iron-meteor
+420 info install underscore@1.3.3 into /usr/local/lib/node_modules/iron-meteor
+421 info install xtend@4.0.0 into /usr/local/lib/node_modules/iron-meteor
+422 info install fibers@1.0.5 into /usr/local/lib/node_modules/iron-meteor
+423 info install minimist@0.0.8 into /usr/local/lib/node_modules/iron-meteor
+424 info installOne single-line-log@0.4.1
+425 info installOne cli-color@0.2.3
+426 info installOne ejs@0.8.5
+427 info installOne cli-table@0.3.0
+428 info installOne shell-source@1.0.1
+429 info installOne underscore@1.3.3
+430 info installOne xtend@4.0.0
+431 info installOne fibers@1.0.5
+432 info installOne minimist@0.0.8
+433 verbose lib/node_modules/iron-meteor/node_modules/single-line-log unbuild
+434 verbose lib/node_modules/iron-meteor/node_modules/cli-color unbuild
+435 verbose lib/node_modules/iron-meteor/node_modules/ejs unbuild
+436 verbose lib/node_modules/iron-meteor/node_modules/cli-table unbuild
+437 verbose lib/node_modules/iron-meteor/node_modules/shell-source unbuild
+438 verbose lib/node_modules/iron-meteor/node_modules/underscore unbuild
+439 verbose lib/node_modules/iron-meteor/node_modules/xtend unbuild
+440 verbose lib/node_modules/iron-meteor/node_modules/fibers unbuild
+441 verbose tar unpack /home/roinand/.npm/single-line-log/0.4.1/package.tgz
+442 silly lockFile 6b4c2e88-eor-node-modules-single-line-log tar:///usr/local/lib/node_modules/iron-meteor/node_modules/single-line-log
+443 verbose lock tar:///usr/local/lib/node_modules/iron-meteor/node_modules/single-line-log /home/roinand/.npm/6b4c2e88-eor-node-modules-single-line-log.lock
+444 silly lockFile d38d52db-ingle-line-log-0-4-1-package-tgz tar:///home/roinand/.npm/single-line-log/0.4.1/package.tgz
+445 verbose lock tar:///home/roinand/.npm/single-line-log/0.4.1/package.tgz /home/roinand/.npm/d38d52db-ingle-line-log-0-4-1-package-tgz.lock
+446 verbose tar unpack /home/roinand/.npm/cli-color/0.2.3/package.tgz
+447 silly lockFile 7577fa4a-on-meteor-node-modules-cli-color tar:///usr/local/lib/node_modules/iron-meteor/node_modules/cli-color
+448 verbose lock tar:///usr/local/lib/node_modules/iron-meteor/node_modules/cli-color /home/roinand/.npm/7577fa4a-on-meteor-node-modules-cli-color.lock
+449 silly lockFile df24cfc7--npm-cli-color-0-2-3-package-tgz tar:///home/roinand/.npm/cli-color/0.2.3/package.tgz
+450 verbose lock tar:///home/roinand/.npm/cli-color/0.2.3/package.tgz /home/roinand/.npm/df24cfc7--npm-cli-color-0-2-3-package-tgz.lock
+451 verbose tar unpack /home/roinand/.npm/ejs/0.8.5/package.tgz
+452 silly lockFile c847c1a4-les-iron-meteor-node-modules-ejs tar:///usr/local/lib/node_modules/iron-meteor/node_modules/ejs
+453 verbose lock tar:///usr/local/lib/node_modules/iron-meteor/node_modules/ejs /home/roinand/.npm/c847c1a4-les-iron-meteor-node-modules-ejs.lock
+454 silly lockFile 9c4cf26b-oinand-npm-ejs-0-8-5-package-tgz tar:///home/roinand/.npm/ejs/0.8.5/package.tgz
+455 verbose lock tar:///home/roinand/.npm/ejs/0.8.5/package.tgz /home/roinand/.npm/9c4cf26b-oinand-npm-ejs-0-8-5-package-tgz.lock
+456 verbose tar unpack /home/roinand/.npm/cli-table/0.3.0/package.tgz
+457 silly lockFile b332cdbe-on-meteor-node-modules-cli-table tar:///usr/local/lib/node_modules/iron-meteor/node_modules/cli-table
+458 verbose lock tar:///usr/local/lib/node_modules/iron-meteor/node_modules/cli-table /home/roinand/.npm/b332cdbe-on-meteor-node-modules-cli-table.lock
+459 silly lockFile 356f21cc--npm-cli-table-0-3-0-package-tgz tar:///home/roinand/.npm/cli-table/0.3.0/package.tgz
+460 verbose lock tar:///home/roinand/.npm/cli-table/0.3.0/package.tgz /home/roinand/.npm/356f21cc--npm-cli-table-0-3-0-package-tgz.lock
+461 verbose tar unpack /home/roinand/.npm/shell-source/1.0.1/package.tgz
+462 silly lockFile 9dbe242f-meteor-node-modules-shell-source tar:///usr/local/lib/node_modules/iron-meteor/node_modules/shell-source
+463 verbose lock tar:///usr/local/lib/node_modules/iron-meteor/node_modules/shell-source /home/roinand/.npm/9dbe242f-meteor-node-modules-shell-source.lock
+464 silly lockFile 849f66f7-m-shell-source-1-0-1-package-tgz tar:///home/roinand/.npm/shell-source/1.0.1/package.tgz
+465 verbose lock tar:///home/roinand/.npm/shell-source/1.0.1/package.tgz /home/roinand/.npm/849f66f7-m-shell-source-1-0-1-package-tgz.lock
+466 verbose tar unpack /home/roinand/.npm/underscore/1.3.3/package.tgz
+467 silly lockFile 9c8e65fc-n-meteor-node-modules-underscore tar:///usr/local/lib/node_modules/iron-meteor/node_modules/underscore
+468 verbose lock tar:///usr/local/lib/node_modules/iron-meteor/node_modules/underscore /home/roinand/.npm/9c8e65fc-n-meteor-node-modules-underscore.lock
+469 silly lockFile 6cf86d3c-npm-underscore-1-3-3-package-tgz tar:///home/roinand/.npm/underscore/1.3.3/package.tgz
+470 verbose lock tar:///home/roinand/.npm/underscore/1.3.3/package.tgz /home/roinand/.npm/6cf86d3c-npm-underscore-1-3-3-package-tgz.lock
+471 verbose tar unpack /home/roinand/.npm/xtend/4.0.0/package.tgz
+472 silly lockFile b7e175bd-s-iron-meteor-node-modules-xtend tar:///usr/local/lib/node_modules/iron-meteor/node_modules/xtend
+473 verbose lock tar:///usr/local/lib/node_modules/iron-meteor/node_modules/xtend /home/roinand/.npm/b7e175bd-s-iron-meteor-node-modules-xtend.lock
+474 silly lockFile beaedf97-nand-npm-xtend-4-0-0-package-tgz tar:///home/roinand/.npm/xtend/4.0.0/package.tgz
+475 verbose lock tar:///home/roinand/.npm/xtend/4.0.0/package.tgz /home/roinand/.npm/beaedf97-nand-npm-xtend-4-0-0-package-tgz.lock
+476 verbose tar unpack /home/roinand/.npm/fibers/1.0.5/package.tgz
+477 silly lockFile cc3fcd2d--iron-meteor-node-modules-fibers tar:///usr/local/lib/node_modules/iron-meteor/node_modules/fibers
+478 verbose lock tar:///usr/local/lib/node_modules/iron-meteor/node_modules/fibers /home/roinand/.npm/cc3fcd2d--iron-meteor-node-modules-fibers.lock
+479 silly lockFile 6c5a5c38-and-npm-fibers-1-0-5-package-tgz tar:///home/roinand/.npm/fibers/1.0.5/package.tgz
+480 verbose lock tar:///home/roinand/.npm/fibers/1.0.5/package.tgz /home/roinand/.npm/6c5a5c38-and-npm-fibers-1-0-5-package-tgz.lock
+481 verbose lib/node_modules/iron-meteor/node_modules/minimist unbuild
+482 silly gunzTarPerm modes [ '755', '644' ]
+483 silly gunzTarPerm modes [ '755', '644' ]
+484 silly gunzTarPerm modes [ '755', '644' ]
+485 silly gunzTarPerm modes [ '755', '644' ]
+486 silly gunzTarPerm modes [ '755', '644' ]
+487 silly gunzTarPerm modes [ '755', '644' ]
+488 silly gunzTarPerm modes [ '755', '644' ]
+489 silly gunzTarPerm modes [ '755', '644' ]
+490 verbose tar unpack /home/roinand/.npm/minimist/0.0.8/package.tgz
+491 silly lockFile 76849e51-ron-meteor-node-modules-minimist tar:///usr/local/lib/node_modules/iron-meteor/node_modules/minimist
+492 verbose lock tar:///usr/local/lib/node_modules/iron-meteor/node_modules/minimist /home/roinand/.npm/76849e51-ron-meteor-node-modules-minimist.lock
+493 silly lockFile a5596445-d-npm-minimist-0-0-8-package-tgz tar:///home/roinand/.npm/minimist/0.0.8/package.tgz
+494 verbose lock tar:///home/roinand/.npm/minimist/0.0.8/package.tgz /home/roinand/.npm/a5596445-d-npm-minimist-0-0-8-package-tgz.lock
+495 silly gunzTarPerm extractEntry package.json
+496 silly gunzTarPerm modes [ '755', '644' ]
+497 silly gunzTarPerm extractEntry package.json
+498 silly gunzTarPerm extractEntry package.json
+499 silly gunzTarPerm extractEntry package.json
+500 silly gunzTarPerm extractEntry package.json
+501 silly gunzTarPerm extractEntry .npmignore
+502 silly gunzTarPerm extractEntry README.md
+503 silly gunzTarPerm extractEntry README.md
+504 silly gunzTarPerm extractEntry index.js
+505 silly gunzTarPerm extractEntry .npmignore
+506 silly gunzTarPerm extractEntry index.js
+507 silly gunzTarPerm extractEntry .npmignore
+508 silly gunzTarPerm extractEntry ejs.js
+509 silly gunzTarPerm extractEntry .npmignore
+510 silly gunzTarPerm extractEntry README.md
+511 silly gunzTarPerm extractEntry package.json
+512 silly gunzTarPerm extractEntry package.json
+513 silly gunzTarPerm extractEntry .npmignore
+514 silly gunzTarPerm extractEntry .npmignore
+515 silly gunzTarPerm extractEntry README.md
+516 silly gunzTarPerm extractEntry LICENSE
+517 silly gunzTarPerm extractEntry index.js
+518 silly gunzTarPerm extractEntry CNAME
+519 silly gunzTarPerm extractEntry favicon.ico
+520 silly gunzTarPerm extractEntry LICENCE
+521 silly gunzTarPerm extractEntry benchmark.js
+522 silly gunzTarPerm extractEntry index.js
+523 silly gunzTarPerm extractEntry History.md
+524 silly gunzTarPerm extractEntry .travis.yml
+525 silly gunzTarPerm extractEntry readme.md
+526 silly gunzTarPerm extractEntry package.json
+527 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+528 silly gunzTarPerm extractEntry LICENSE
+529 silly gunzTarPerm extractEntry index.html
+530 silly gunzTarPerm extractEntry .travis.yml
+531 silly gunzTarPerm extractEntry example/parse.js
+532 silly gunzTarPerm extractEntry index.js
+533 silly gunzTarPerm extractEntry .npmignore
+534 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+535 silly gunzTarPerm extractEntry README.md
+536 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+537 silly gunzTarPerm extractEntry Makefile
+538 silly gunzTarPerm extractEntry .travis.yml
+539 silly gunzTarPerm extractEntry ejs.min.js
+540 silly gunzTarPerm extractEntry index.js
+541 silly gunzTarPerm extractEntry Makefile
+542 silly gunzTarPerm extractEntry examples/revs.js
+543 silly gunzTarPerm extractEntry source.sh
+544 silly gunzTarPerm modified mode [ 'source.sh', 509, 493 ]
+545 silly gunzTarPerm extractEntry test/index.js
+546 silly gunzTarPerm modified mode [ 'test/index.js', 436, 420 ]
+547 silly gunzTarPerm extractEntry quick-test.js
+548 silly gunzTarPerm extractEntry future.js
+549 silly gunzTarPerm extractEntry LICENSE
+550 silly gunzTarPerm extractEntry package.json
+551 silly gunzTarPerm extractEntry readme.markdown
+552 silly gunzTarPerm extractEntry test/dash.js
+553 silly gunzTarPerm extractEntry LICENCE
+554 silly gunzTarPerm modified mode [ 'LICENCE', 436, 420 ]
+555 silly gunzTarPerm extractEntry immutable.js
+556 silly gunzTarPerm modified mode [ 'immutable.js', 436, 420 ]
+557 silly gunzTarPerm extractEntry test/fixture.sh
+558 silly gunzTarPerm modified mode [ 'test/fixture.sh', 436, 420 ]
+559 silly gunzTarPerm extractEntry raw/
+560 silly gunzTarPerm extractEntry raw/underscore.psd
+561 silly gunzTarPerm extractEntry mutable.js
+562 silly gunzTarPerm modified mode [ 'mutable.js', 436, 420 ]
+563 silly gunzTarPerm extractEntry test.js
+564 silly gunzTarPerm modified mode [ 'test.js', 436, 420 ]
+565 silly gunzTarPerm extractEntry lib/cli-table/index.js
+566 silly gunzTarPerm extractEntry lib/cli-table/utils.js
+567 silly gunzTarPerm extractEntry test/index.test.js
+568 silly gunzTarPerm extractEntry test/newlines.test.js
+569 silly lockFile 6b4c2e88-eor-node-modules-single-line-log tar:///usr/local/lib/node_modules/iron-meteor/node_modules/single-line-log
+570 silly lockFile 6b4c2e88-eor-node-modules-single-line-log tar:///usr/local/lib/node_modules/iron-meteor/node_modules/single-line-log
+571 silly lockFile d38d52db-ingle-line-log-0-4-1-package-tgz tar:///home/roinand/.npm/single-line-log/0.4.1/package.tgz
+572 silly lockFile d38d52db-ingle-line-log-0-4-1-package-tgz tar:///home/roinand/.npm/single-line-log/0.4.1/package.tgz
+573 info preinstall single-line-log@0.4.1
+574 silly gunzTarPerm extractEntry .jshintrc
+575 silly gunzTarPerm modified mode [ '.jshintrc', 436, 420 ]
+576 silly gunzTarPerm extractEntry Makefile
+577 silly gunzTarPerm modified mode [ 'Makefile', 436, 420 ]
+578 silly gunzTarPerm extractEntry test/default_bool.js
+579 silly gunzTarPerm extractEntry test/dotted.js
+580 silly gunzTarPerm extractEntry test/long.js
+581 silly gunzTarPerm extractEntry test/parse.js
+582 silly gunzTarPerm extractEntry test/parse_modified.js
+583 silly gunzTarPerm extractEntry test/short.js
+584 silly gunzTarPerm extractEntry test/whitespace.js
+585 verbose readDependencies using package.json deps
+586 verbose readDependencies using package.json deps
+587 silly resolved []
+588 verbose about to build /usr/local/lib/node_modules/iron-meteor/node_modules/single-line-log
+589 info build /usr/local/lib/node_modules/iron-meteor/node_modules/single-line-log
+590 verbose linkStuff [ true,
+590 verbose linkStuff   '/usr/local/lib/node_modules',
+590 verbose linkStuff   false,
+590 verbose linkStuff   '/usr/local/lib/node_modules/iron-meteor/node_modules' ]
+591 info linkStuff single-line-log@0.4.1
+592 verbose linkBins single-line-log@0.4.1
+593 verbose linkMans single-line-log@0.4.1
+594 verbose rebuildBundles single-line-log@0.4.1
+595 info install single-line-log@0.4.1
+596 info postinstall single-line-log@0.4.1
+597 silly gunzTarPerm extractEntry .gitmodules
+598 silly gunzTarPerm extractEntry .travis.yml
+599 silly gunzTarPerm extractEntry History.md
+600 silly gunzTarPerm extractEntry examples/functions.js
+601 silly gunzTarPerm extractEntry build.js
+602 silly gunzTarPerm extractEntry test.js
+603 silly gunzTarPerm extractEntry fibers.js
+604 silly gunzTarPerm extractEntry binding.gyp
+605 silly gunzTarPerm extractEntry bin/.npmignore
+606 silly gunzTarPerm extractEntry bin/darwin-ia32-v8-3.14/fibers.node
+607 silly gunzTarPerm extractEntry examples/list.js
+608 silly gunzTarPerm extractEntry examples/client.html
+609 silly gunzTarPerm extractEntry examples/functions.ejs
+610 silly gunzTarPerm extractEntry examples/list.ejs
+611 silly lockFile 9dbe242f-meteor-node-modules-shell-source tar:///usr/local/lib/node_modules/iron-meteor/node_modules/shell-source
+612 silly lockFile 9dbe242f-meteor-node-modules-shell-source tar:///usr/local/lib/node_modules/iron-meteor/node_modules/shell-source
+613 silly gunzTarPerm extractEntry CHANGES
+614 silly gunzTarPerm extractEntry bin/generate-color-images
+615 silly lockFile 849f66f7-m-shell-source-1-0-1-package-tgz tar:///home/roinand/.npm/shell-source/1.0.1/package.tgz
+616 silly lockFile 849f66f7-m-shell-source-1-0-1-package-tgz tar:///home/roinand/.npm/shell-source/1.0.1/package.tgz
+617 info preinstall shell-source@1.0.1
+618 silly gunzTarPerm extractEntry Makefile
+619 silly gunzTarPerm extractEntry lib/ejs.js
+620 verbose readDependencies using package.json deps
+621 verbose readDependencies using package.json deps
+622 silly gunzTarPerm extractEntry lib/_xterm-colors.js
+623 silly gunzTarPerm extractEntry lib/_xterm-match.js
+624 verbose cache add [ 'concat-stream@^1.4.7', null ]
+625 verbose cache add name=undefined spec="concat-stream@^1.4.7" args=["concat-stream@^1.4.7",null]
+626 verbose parsed url { protocol: null,
+626 verbose parsed url   slashes: null,
+626 verbose parsed url   auth: null,
+626 verbose parsed url   host: null,
+626 verbose parsed url   port: null,
+626 verbose parsed url   hostname: null,
+626 verbose parsed url   hash: null,
+626 verbose parsed url   search: null,
+626 verbose parsed url   query: null,
+626 verbose parsed url   pathname: 'concat-stream@^1.4.7',
+626 verbose parsed url   path: 'concat-stream@^1.4.7',
+626 verbose parsed url   href: 'concat-stream@^1.4.7' }
+627 verbose cache add name="concat-stream" spec="^1.4.7" args=["concat-stream","^1.4.7"]
+628 verbose parsed url { protocol: null,
+628 verbose parsed url   slashes: null,
+628 verbose parsed url   auth: null,
+628 verbose parsed url   host: null,
+628 verbose parsed url   port: null,
+628 verbose parsed url   hostname: null,
+628 verbose parsed url   hash: null,
+628 verbose parsed url   search: null,
+628 verbose parsed url   query: null,
+628 verbose parsed url   pathname: '^1.4.7',
+628 verbose parsed url   path: '^1.4.7',
+628 verbose parsed url   href: '^1.4.7' }
+629 verbose addNamed [ 'concat-stream', '^1.4.7' ]
+630 verbose addNamed [ null, '>=1.4.7-0 <2.0.0-0' ]
+631 silly lockFile b28e5052-concat-stream-1-4-7 concat-stream@^1.4.7
+632 verbose lock concat-stream@^1.4.7 /home/roinand/.npm/b28e5052-concat-stream-1-4-7.lock
+633 silly gunzTarPerm extractEntry lib/filters.js
+634 silly gunzTarPerm extractEntry lib/utils.js
+635 silly lockFile b7e175bd-s-iron-meteor-node-modules-xtend tar:///usr/local/lib/node_modules/iron-meteor/node_modules/xtend
+636 silly lockFile b7e175bd-s-iron-meteor-node-modules-xtend tar:///usr/local/lib/node_modules/iron-meteor/node_modules/xtend
+637 silly addNameRange { name: 'concat-stream',
+637 silly addNameRange   range: '>=1.4.7-0 <2.0.0-0',
+637 silly addNameRange   hasData: false }
+638 silly lockFile beaedf97-nand-npm-xtend-4-0-0-package-tgz tar:///home/roinand/.npm/xtend/4.0.0/package.tgz
+639 silly lockFile beaedf97-nand-npm-xtend-4-0-0-package-tgz tar:///home/roinand/.npm/xtend/4.0.0/package.tgz
+640 silly gunzTarPerm extractEntry bin/darwin-x64-v8-3.14/fibers.node
+641 silly gunzTarPerm extractEntry bin/linux-ia32-v8-3.14/fibers.node
+642 silly gunzTarPerm extractEntry lib/index.js
+643 silly gunzTarPerm extractEntry lib/throbber.js
+644 info preinstall xtend@4.0.0
+645 verbose readDependencies using package.json deps
+646 verbose readDependencies using package.json deps
+647 silly resolved []
+648 verbose about to build /usr/local/lib/node_modules/iron-meteor/node_modules/xtend
+649 info build /usr/local/lib/node_modules/iron-meteor/node_modules/xtend
+650 verbose linkStuff [ true,
+650 verbose linkStuff   '/usr/local/lib/node_modules',
+650 verbose linkStuff   false,
+650 verbose linkStuff   '/usr/local/lib/node_modules/iron-meteor/node_modules' ]
+651 info linkStuff xtend@4.0.0
+652 verbose linkBins xtend@4.0.0
+653 verbose linkMans xtend@4.0.0
+654 verbose rebuildBundles xtend@4.0.0
+655 info install xtend@4.0.0
+656 silly gunzTarPerm extractEntry lib/trim.js
+657 silly gunzTarPerm extractEntry .lint
+658 info postinstall xtend@4.0.0
+659 silly gunzTarPerm extractEntry bin/linux-x64-v8-3.14/fibers.node
+660 silly gunzTarPerm extractEntry bin/win32-ia32-v8-3.14/fibers.node
+661 verbose request where is /concat-stream
+662 verbose request registry https://registry.npmjs.org/
+663 verbose url raw /concat-stream
+664 verbose url resolving [ 'https://registry.npmjs.org/', './concat-stream' ]
+665 verbose url resolved https://registry.npmjs.org/concat-stream
+666 verbose request where is https://registry.npmjs.org/concat-stream
+667 info trying registry request attempt 1 at 15:55:20
+668 verbose etag "43ZLYNLVBO3J4W2NLDNIDO4TE"
+669 http GET https://registry.npmjs.org/concat-stream
+670 silly gunzTarPerm extractEntry bin/win32-x64-v8-3.14/fibers.node
+671 silly gunzTarPerm extractEntry src/coroutine.cc
+672 silly gunzTarPerm extractEntry Readme.md
+673 silly gunzTarPerm extractEntry support/compile.js
+674 silly gunzTarPerm extractEntry test/_xterm-colors.js
+675 silly gunzTarPerm extractEntry test/_xterm-match.js
+676 silly gunzTarPerm extractEntry src/coroutine.h
+677 silly gunzTarPerm extractEntry src/fibers.cc
+678 silly gunzTarPerm extractEntry test/ejs.js
+679 silly gunzTarPerm extractEntry test/fixtures/menu.ejs
+680 silly gunzTarPerm extractEntry test/index.js
+681 silly gunzTarPerm extractEntry test/throbber.js
+682 silly gunzTarPerm extractEntry src/libcoro/README
+683 silly gunzTarPerm extractEntry test/fixtures/backslash.ejs
+684 silly gunzTarPerm extractEntry test/fixtures/comments.ejs
+685 silly lockFile 76849e51-ron-meteor-node-modules-minimist tar:///usr/local/lib/node_modules/iron-meteor/node_modules/minimist
+686 silly lockFile 76849e51-ron-meteor-node-modules-minimist tar:///usr/local/lib/node_modules/iron-meteor/node_modules/minimist
+687 silly lockFile a5596445-d-npm-minimist-0-0-8-package-tgz tar:///home/roinand/.npm/minimist/0.0.8/package.tgz
+688 silly lockFile a5596445-d-npm-minimist-0-0-8-package-tgz tar:///home/roinand/.npm/minimist/0.0.8/package.tgz
+689 silly gunzTarPerm extractEntry test/trim.js
+690 silly gunzTarPerm extractEntry test/__playground/throbber.formatted.js
+691 info preinstall minimist@0.0.8
+692 silly gunzTarPerm extractEntry test/fixtures/comments.html
+693 silly gunzTarPerm extractEntry test/fixtures/double-quote.ejs
+694 verbose readDependencies using package.json deps
+695 verbose readDependencies using package.json deps
+696 silly resolved []
+697 verbose about to build /usr/local/lib/node_modules/iron-meteor/node_modules/minimist
+698 info build /usr/local/lib/node_modules/iron-meteor/node_modules/minimist
+699 verbose linkStuff [ true,
+699 verbose linkStuff   '/usr/local/lib/node_modules',
+699 verbose linkStuff   false,
+699 verbose linkStuff   '/usr/local/lib/node_modules/iron-meteor/node_modules' ]
+700 info linkStuff minimist@0.0.8
+701 verbose linkBins minimist@0.0.8
+702 verbose linkMans minimist@0.0.8
+703 verbose rebuildBundles minimist@0.0.8
+704 info install minimist@0.0.8
+705 silly gunzTarPerm extractEntry test/__playground/throbber.js
+706 silly gunzTarPerm extractEntry test/fixtures/double-quote.html
+707 silly gunzTarPerm extractEntry test/fixtures/error.ejs
+708 info postinstall minimist@0.0.8
+709 silly gunzTarPerm extractEntry test/fixtures/error.out
+710 silly gunzTarPerm extractEntry test/fixtures/fail.ejs
+711 silly lockFile b332cdbe-on-meteor-node-modules-cli-table tar:///usr/local/lib/node_modules/iron-meteor/node_modules/cli-table
+712 silly lockFile b332cdbe-on-meteor-node-modules-cli-table tar:///usr/local/lib/node_modules/iron-meteor/node_modules/cli-table
+713 silly lockFile 356f21cc--npm-cli-table-0-3-0-package-tgz tar:///home/roinand/.npm/cli-table/0.3.0/package.tgz
+714 silly lockFile 356f21cc--npm-cli-table-0-3-0-package-tgz tar:///home/roinand/.npm/cli-table/0.3.0/package.tgz
+715 silly gunzTarPerm extractEntry README.md
+716 info preinstall cli-table@0.3.0
+717 silly gunzTarPerm extractEntry test/fixtures/include.css.ejs
+718 silly gunzTarPerm extractEntry test/fixtures/include.css.html
+719 verbose readDependencies using package.json deps
+720 verbose readDependencies using package.json deps
+721 silly gunzTarPerm extractEntry underscore-min.js
+722 silly gunzTarPerm extractEntry underscore.js
+723 verbose cache add [ 'colors@0.6.2', null ]
+724 verbose cache add name=undefined spec="colors@0.6.2" args=["colors@0.6.2",null]
+725 verbose parsed url { protocol: null,
+725 verbose parsed url   slashes: null,
+725 verbose parsed url   auth: null,
+725 verbose parsed url   host: null,
+725 verbose parsed url   port: null,
+725 verbose parsed url   hostname: null,
+725 verbose parsed url   hash: null,
+725 verbose parsed url   search: null,
+725 verbose parsed url   query: null,
+725 verbose parsed url   pathname: 'colors@0.6.2',
+725 verbose parsed url   path: 'colors@0.6.2',
+725 verbose parsed url   href: 'colors@0.6.2' }
+726 verbose cache add name="colors" spec="0.6.2" args=["colors","0.6.2"]
+727 verbose parsed url { protocol: null,
+727 verbose parsed url   slashes: null,
+727 verbose parsed url   auth: null,
+727 verbose parsed url   host: null,
+727 verbose parsed url   port: null,
+727 verbose parsed url   hostname: null,
+727 verbose parsed url   hash: null,
+727 verbose parsed url   search: null,
+727 verbose parsed url   query: null,
+727 verbose parsed url   pathname: '0.6.2',
+727 verbose parsed url   path: '0.6.2',
+727 verbose parsed url   href: '0.6.2' }
+728 verbose addNamed [ 'colors', '0.6.2' ]
+729 verbose addNamed [ '0.6.2', '0.6.2' ]
+730 silly lockFile 1ce149d5-colors-0-6-2 colors@0.6.2
+731 verbose lock colors@0.6.2 /home/roinand/.npm/1ce149d5-colors-0-6-2.lock
+732 silly gunzTarPerm extractEntry test/fixtures/include.ejs
+733 silly gunzTarPerm extractEntry test/fixtures/include.html
+734 verbose request where is /colors
+735 verbose request registry https://registry.npmjs.org/
+736 verbose url raw /colors
+737 verbose url resolving [ 'https://registry.npmjs.org/', './colors' ]
+738 verbose url resolved https://registry.npmjs.org/colors
+739 verbose request where is https://registry.npmjs.org/colors
+740 info trying registry request attempt 1 at 15:55:20
+741 verbose etag "23XKYX8YHRCSFPLUOVL13M8JM"
+742 http GET https://registry.npmjs.org/colors
+743 silly gunzTarPerm extractEntry test/fixtures/includes/menu/item.ejs
+744 silly gunzTarPerm extractEntry test/fixtures/includes/menu-item.ejs
+745 silly gunzTarPerm extractEntry src/libcoro/LICENSE
+746 silly gunzTarPerm extractEntry src/libcoro/conftest.c
+747 silly gunzTarPerm extractEntry test/fixtures/backslash.html
+748 silly gunzTarPerm extractEntry test/fixtures/menu.html
+749 silly gunzTarPerm extractEntry test/fixtures/messed.ejs
+750 silly gunzTarPerm extractEntry test/fixtures/messed.html
+751 silly gunzTarPerm extractEntry test/fixtures/newlines.ejs
+752 silly gunzTarPerm extractEntry test/fixtures/newlines.html
+753 silly lockFile 7577fa4a-on-meteor-node-modules-cli-color tar:///usr/local/lib/node_modules/iron-meteor/node_modules/cli-color
+754 silly lockFile 7577fa4a-on-meteor-node-modules-cli-color tar:///usr/local/lib/node_modules/iron-meteor/node_modules/cli-color
+755 silly lockFile df24cfc7--npm-cli-color-0-2-3-package-tgz tar:///home/roinand/.npm/cli-color/0.2.3/package.tgz
+756 silly lockFile df24cfc7--npm-cli-color-0-2-3-package-tgz tar:///home/roinand/.npm/cli-color/0.2.3/package.tgz
+757 silly gunzTarPerm extractEntry test/fixtures/no.newlines.ejs
+758 silly gunzTarPerm extractEntry test/fixtures/no.newlines.html
+759 info preinstall cli-color@0.2.3
+760 verbose readDependencies using package.json deps
+761 verbose readDependencies using package.json deps
+762 silly gunzTarPerm extractEntry test/fixtures/para.ejs
+763 silly gunzTarPerm extractEntry test/fixtures/pet.ejs
+764 verbose cache add [ 'es5-ext@~0.9.2', null ]
+765 verbose cache add name=undefined spec="es5-ext@~0.9.2" args=["es5-ext@~0.9.2",null]
+766 verbose parsed url { protocol: null,
+766 verbose parsed url   slashes: null,
+766 verbose parsed url   auth: null,
+766 verbose parsed url   host: null,
+766 verbose parsed url   port: null,
+766 verbose parsed url   hostname: null,
+766 verbose parsed url   hash: null,
+766 verbose parsed url   search: null,
+766 verbose parsed url   query: null,
+766 verbose parsed url   pathname: 'es5-ext@~0.9.2',
+766 verbose parsed url   path: 'es5-ext@~0.9.2',
+766 verbose parsed url   href: 'es5-ext@~0.9.2' }
+767 verbose cache add [ 'memoizee@~0.2.5', null ]
+768 verbose cache add name=undefined spec="memoizee@~0.2.5" args=["memoizee@~0.2.5",null]
+769 verbose parsed url { protocol: null,
+769 verbose parsed url   slashes: null,
+769 verbose parsed url   auth: null,
+769 verbose parsed url   host: null,
+769 verbose parsed url   port: null,
+769 verbose parsed url   hostname: null,
+769 verbose parsed url   hash: null,
+769 verbose parsed url   search: null,
+769 verbose parsed url   query: null,
+769 verbose parsed url   pathname: 'memoizee@~0.2.5',
+769 verbose parsed url   path: 'memoizee@~0.2.5',
+769 verbose parsed url   href: 'memoizee@~0.2.5' }
+770 verbose cache add name="es5-ext" spec="~0.9.2" args=["es5-ext","~0.9.2"]
+771 verbose parsed url { protocol: null,
+771 verbose parsed url   slashes: null,
+771 verbose parsed url   auth: null,
+771 verbose parsed url   host: null,
+771 verbose parsed url   port: null,
+771 verbose parsed url   hostname: null,
+771 verbose parsed url   hash: null,
+771 verbose parsed url   search: null,
+771 verbose parsed url   query: null,
+771 verbose parsed url   pathname: '~0.9.2',
+771 verbose parsed url   path: '~0.9.2',
+771 verbose parsed url   href: '~0.9.2' }
+772 verbose addNamed [ 'es5-ext', '~0.9.2' ]
+773 verbose addNamed [ null, '>=0.9.2-0 <0.10.0-0' ]
+774 silly lockFile df70cb2b-es5-ext-0-9-2 es5-ext@~0.9.2
+775 verbose lock es5-ext@~0.9.2 /home/roinand/.npm/df70cb2b-es5-ext-0-9-2.lock
+776 verbose cache add name="memoizee" spec="~0.2.5" args=["memoizee","~0.2.5"]
+777 verbose parsed url { protocol: null,
+777 verbose parsed url   slashes: null,
+777 verbose parsed url   auth: null,
+777 verbose parsed url   host: null,
+777 verbose parsed url   port: null,
+777 verbose parsed url   hostname: null,
+777 verbose parsed url   hash: null,
+777 verbose parsed url   search: null,
+777 verbose parsed url   query: null,
+777 verbose parsed url   pathname: '~0.2.5',
+777 verbose parsed url   path: '~0.2.5',
+777 verbose parsed url   href: '~0.2.5' }
+778 verbose addNamed [ 'memoizee', '~0.2.5' ]
+779 verbose addNamed [ null, '>=0.2.5-0 <0.3.0-0' ]
+780 silly lockFile 7f966856-memoizee-0-2-5 memoizee@~0.2.5
+781 verbose lock memoizee@~0.2.5 /home/roinand/.npm/7f966856-memoizee-0-2-5.lock
+782 silly addNameRange { name: 'es5-ext', range: '>=0.9.2-0 <0.10.0-0', hasData: false }
+783 silly addNameRange { name: 'memoizee', range: '>=0.2.5-0 <0.3.0-0', hasData: false }
+784 silly gunzTarPerm extractEntry test/fixtures/single-quote.ejs
+785 silly gunzTarPerm extractEntry test/fixtures/single-quote.html
+786 silly gunzTarPerm extractEntry test/fixtures/style.css
+787 silly gunzTarPerm extractEntry test/fixtures/user.ejs
+788 verbose request where is /memoizee
+789 verbose request registry https://registry.npmjs.org/
+790 verbose url raw /memoizee
+791 verbose url resolving [ 'https://registry.npmjs.org/', './memoizee' ]
+792 verbose url resolved https://registry.npmjs.org/memoizee
+793 verbose request where is https://registry.npmjs.org/memoizee
+794 info trying registry request attempt 1 at 15:55:20
+795 verbose etag "6I26NDELPE9YCRD19FITFF1O4"
+796 http GET https://registry.npmjs.org/memoizee
+797 silly gunzTarPerm extractEntry src/libcoro/coro.c
+798 silly gunzTarPerm extractEntry src/libcoro/coro.h
+799 silly gunzTarPerm extractEntry test/already-running.js
+800 silly gunzTarPerm extractEntry test/exit.js
+801 silly lockFile c847c1a4-les-iron-meteor-node-modules-ejs tar:///usr/local/lib/node_modules/iron-meteor/node_modules/ejs
+802 silly lockFile c847c1a4-les-iron-meteor-node-modules-ejs tar:///usr/local/lib/node_modules/iron-meteor/node_modules/ejs
+803 silly lockFile 9c4cf26b-oinand-npm-ejs-0-8-5-package-tgz tar:///home/roinand/.npm/ejs/0.8.5/package.tgz
+804 silly lockFile 9c4cf26b-oinand-npm-ejs-0-8-5-package-tgz tar:///home/roinand/.npm/ejs/0.8.5/package.tgz
+805 info preinstall ejs@0.8.5
+806 silly gunzTarPerm extractEntry test/fibonacci.js
+807 silly gunzTarPerm extractEntry test/finish-multiple.js
+808 verbose readDependencies using package.json deps
+809 verbose readDependencies using package.json deps
+810 silly resolved []
+811 verbose about to build /usr/local/lib/node_modules/iron-meteor/node_modules/ejs
+812 info build /usr/local/lib/node_modules/iron-meteor/node_modules/ejs
+813 verbose linkStuff [ true,
+813 verbose linkStuff   '/usr/local/lib/node_modules',
+813 verbose linkStuff   false,
+813 verbose linkStuff   '/usr/local/lib/node_modules/iron-meteor/node_modules' ]
+814 info linkStuff ejs@0.8.5
+815 verbose linkBins ejs@0.8.5
+816 verbose linkMans ejs@0.8.5
+817 verbose rebuildBundles ejs@0.8.5
+818 info install ejs@0.8.5
+819 info postinstall ejs@0.8.5
+820 silly lockFile 9c8e65fc-n-meteor-node-modules-underscore tar:///usr/local/lib/node_modules/iron-meteor/node_modules/underscore
+821 silly lockFile 9c8e65fc-n-meteor-node-modules-underscore tar:///usr/local/lib/node_modules/iron-meteor/node_modules/underscore
+822 silly lockFile 6cf86d3c-npm-underscore-1-3-3-package-tgz tar:///home/roinand/.npm/underscore/1.3.3/package.tgz
+823 silly lockFile 6cf86d3c-npm-underscore-1-3-3-package-tgz tar:///home/roinand/.npm/underscore/1.3.3/package.tgz
+824 verbose request where is /es5-ext
+825 verbose request registry https://registry.npmjs.org/
+826 verbose url raw /es5-ext
+827 verbose url resolving [ 'https://registry.npmjs.org/', './es5-ext' ]
+828 verbose url resolved https://registry.npmjs.org/es5-ext
+829 verbose request where is https://registry.npmjs.org/es5-ext
+830 info trying registry request attempt 1 at 15:55:20
+831 verbose etag "7OEIXVRFKSX8AUA11YW8MM14L"
+832 http GET https://registry.npmjs.org/es5-ext
+833 info preinstall underscore@1.3.3
+834 verbose readDependencies using package.json deps
+835 verbose readDependencies using package.json deps
+836 silly resolved []
+837 verbose about to build /usr/local/lib/node_modules/iron-meteor/node_modules/underscore
+838 info build /usr/local/lib/node_modules/iron-meteor/node_modules/underscore
+839 verbose linkStuff [ true,
+839 verbose linkStuff   '/usr/local/lib/node_modules',
+839 verbose linkStuff   false,
+839 verbose linkStuff   '/usr/local/lib/node_modules/iron-meteor/node_modules' ]
+840 info linkStuff underscore@1.3.3
+841 verbose linkBins underscore@1.3.3
+842 verbose linkMans underscore@1.3.3
+843 verbose rebuildBundles underscore@1.3.3
+844 info install underscore@1.3.3
+845 info postinstall underscore@1.3.3
+846 silly gunzTarPerm extractEntry test/exec.js
+847 silly gunzTarPerm extractEntry test/future.js
+848 silly gunzTarPerm extractEntry test/illegal-yield.js
+849 silly gunzTarPerm extractEntry test/pool.js
+850 silly gunzTarPerm extractEntry test/process-title.js
+851 silly gunzTarPerm extractEntry test/stack-overflow.js
+852 silly gunzTarPerm extractEntry test/current.js
+853 silly gunzTarPerm extractEntry test/stack-overflow2.js
+854 silly gunzTarPerm extractEntry test/child-process.js
+855 silly gunzTarPerm extractEntry test/started.js
+856 silly gunzTarPerm extractEntry test/bad-context.js
+857 silly gunzTarPerm extractEntry test/unwind.js
+858 silly gunzTarPerm extractEntry test/future-exception.js
+859 silly lockFile cc3fcd2d--iron-meteor-node-modules-fibers tar:///usr/local/lib/node_modules/iron-meteor/node_modules/fibers
+860 silly lockFile cc3fcd2d--iron-meteor-node-modules-fibers tar:///usr/local/lib/node_modules/iron-meteor/node_modules/fibers
+861 silly lockFile 6c5a5c38-and-npm-fibers-1-0-5-package-tgz tar:///home/roinand/.npm/fibers/1.0.5/package.tgz
+862 silly lockFile 6c5a5c38-and-npm-fibers-1-0-5-package-tgz tar:///home/roinand/.npm/fibers/1.0.5/package.tgz
+863 info preinstall fibers@1.0.5
+864 verbose readDependencies using package.json deps
+865 verbose readDependencies using package.json deps
+866 silly resolved []
+867 verbose about to build /usr/local/lib/node_modules/iron-meteor/node_modules/fibers
+868 info build /usr/local/lib/node_modules/iron-meteor/node_modules/fibers
+869 verbose linkStuff [ true,
+869 verbose linkStuff   '/usr/local/lib/node_modules',
+869 verbose linkStuff   false,
+869 verbose linkStuff   '/usr/local/lib/node_modules/iron-meteor/node_modules' ]
+870 info linkStuff fibers@1.0.5
+871 verbose linkBins fibers@1.0.5
+872 verbose linkMans fibers@1.0.5
+873 verbose rebuildBundles fibers@1.0.5
+874 info install fibers@1.0.5
+875 verbose unsafe-perm in lifecycle false
+876 info fibers@1.0.5 Failed to exec install script
+877 verbose lib/node_modules/iron-meteor/node_modules/fibers unbuild
+878 warn This failure might be due to the use of legacy binary "node"
+879 warn For further explanations, please read
+/usr/share/doc/nodejs/README.Debian
+880 info preuninstall fibers@1.0.5
+881 info uninstall fibers@1.0.5
+882 verbose false,/usr/local/lib/node_modules,/usr/local/lib/node_modules/iron-meteor/node_modules unbuild fibers@1.0.5
+883 info postuninstall fibers@1.0.5
+884 verbose about to build /usr/local/lib/node_modules/iron-meteor
+885 verbose lib/node_modules/iron-meteor unbuild
+886 info preuninstall iron-meteor@1.1.2
+887 info uninstall iron-meteor@1.1.2
+888 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild iron-meteor@1.1.2
+889 verbose /usr/local/bin,[object Object] binRoot
+890 info postuninstall iron-meteor@1.1.2
+891 error fibers@1.0.5 install: `node ./build.js`
+891 error Exit status 1
+892 error Failed at the fibers@1.0.5 install script.
+892 error This is most likely a problem with the fibers package,
+892 error not with npm itself.
+892 error Tell the author that this fails on your system:
+892 error     node ./build.js
+892 error You can get their info via:
+892 error     npm owner ls fibers
+892 error There is likely additional logging output above.
+893 error System Linux 3.16.0-34-generic
+894 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "iron-meteor"
+895 error cwd /home/roinand/codes/sarai-template
+896 error node -v v0.10.25
+897 error npm -v 1.4.21
+898 error code ELIFECYCLE
+899 verbose exit [ 1, true ]

@@ -18,3 +18,10 @@ Router.route('inside', {
   action: 'action',
   where: 'client'
 });
+
+Router.route('posts', {
+  name: 'posts',
+  controller: 'PostsController',
+  action: 'action',
+  where: 'client'
+});

@@ -1,5 +1,5 @@
 <template name="Navigation">
-  <core-toolbar class="grey">
+  <core-toolbar class="black">
     {{#if showMenuButton}}
       <div class="menu-button">
         <paper-icon-button id="toggle-side-navigation" icon="menu" class="white-text"></paper-icon-button>
@@ -15,17 +15,52 @@
     <div flex></div>
 
     {{#if showTopNavMenu}}
-      <div id="top-nav-menu">
+      <div id="top-nav-menu" layout horizontal center>
         {{#each menuArray}}
-          <paper-button class="grey white-text navigation" data-path="{{path}}">
-            {{#if linkInside}}
-              {{#linkTo route=path}}
-                {{name}}
-              {{/linkTo}}
-            {{else}}
-              <a href="{{path}}">{{name}}</a>
-            {{/if}}
-          </paper-button>
+          {{#if hasChild}}
+            
+            <!-- <paper-button class="black white-text navigation" data-path="{{path}} ">
+              {{#if linkInside}}
+                {{#linkTo route=path}}
+                  {{name}}
+                {{/linkTo}}
+
+              {{else}}
+                <a href="{{path}}">{{name}}</a>
+              {{/if}}
+            </paper-button> -->
+            <core-menu>
+              <core-submenu label="{{name}}" class="black white-text navigation" >
+                    {{#each sublinks}}
+                    <core-item id="{{name}}" label="{{name}}">
+                      {{#if linkInside}}
+                        {{#linkTo route=path}}
+                         
+                        {{/linkTo}}
+                      {{else}}
+                        <a href="{{path}}">{{name}}</a>
+                      {{/if}}
+                    </core-item>
+                    {{/each}}
+              </core-submenu>
+            </core-menu>
+
+
+
+
+          {{else}}
+
+            <paper-button class="black white-text navigation" data-path="{{path}}">
+              {{#if linkInside}}
+                {{#linkTo route=path}}
+                  {{name}}
+                {{/linkTo}}
+              {{else}}
+                <a href="{{path}}">{{name}}</a>
+              {{/if}}
+            </paper-button>
+
+          {{/if}}
         {{/each}}
       </div>
       

@@ -1,34 +1,23 @@
 /*****************************************************************************/
-/* Home: Event Handlers */
+/* Posts: Event Handlers */
 /*****************************************************************************/
-Template.Home.events({
-	"click .button-ko": function(e) {
-		e.preventDefault();
-		toast(Session.get("Exmo"), 3000);
-	}
+Template.Posts.events({
 });
 
 /*****************************************************************************/
-/* Home: Helpers */
+/* Posts: Helpers */
 /*****************************************************************************/
-Template.Home.helpers({
-	variable: function() {
-		return "Latest News"
-	},
-	x: function() {
-		return Session.get("Exmo");
-	}
+Template.Posts.helpers({
 });
 
 /*****************************************************************************/
-/* Home: Lifecycle Hooks */
+/* Posts: Lifecycle Hooks */
 /*****************************************************************************/
-Template.Home.created = function () {
+Template.Posts.created = function () {
 };
 
-Template.Home.rendered = function () {
-	Session.set("Exmo", 1)
+Template.Posts.rendered = function () {
 };
 
-Template.Home.destroyed = function () {
+Template.Posts.destroyed = function () {
 };

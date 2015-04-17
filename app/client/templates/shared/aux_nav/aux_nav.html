@@ -1,0 +1,21 @@
+<template name="Auxillary">
+  
+  <nav class="black secondary-nav">
+    <div id="aux-nav-menu">
+      {{#each auxArray}}
+        <paper-button class="black white-text aux" data-path="{{path}}">
+          {{#if linkInside}}
+            {{#linkTo route=path}}
+              {{name}}
+            {{/linkTo}}
+          {{else}}
+            <a href="{{path}}">{{name}}</a>
+          {{/if}}
+        </paper-button>
+      {{/each}}
+    </div>
+    
+    
+  </nav>
+  
+</template>
