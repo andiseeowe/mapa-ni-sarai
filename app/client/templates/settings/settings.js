@@ -1,34 +1,23 @@
 /*****************************************************************************/
-/* Home: Event Handlers */
+/* Settings: Event Handlers */
 /*****************************************************************************/
-Template.Home.events({
-	"click .button-ko": function(e) {
-		e.preventDefault();
-		toast(Session.get("Exmo"), 3000);
-	}
+Template.Settings.events({
 });
 
 /*****************************************************************************/
-/* Home: Helpers */
+/* Settings: Helpers */
 /*****************************************************************************/
-Template.Home.helpers({
-	variable: function() {
-		return "Something About the App"
-	},
-	x: function() {
-		return Session.get("Exmo");
-	}
+Template.Settings.helpers({
 });
 
 /*****************************************************************************/
-/* Home: Lifecycle Hooks */
+/* Settings: Lifecycle Hooks */
 /*****************************************************************************/
-Template.Home.created = function () {
+Template.Settings.created = function () {
 };
 
-Template.Home.rendered = function () {
-	Session.set("Exmo", 1)
+Template.Settings.rendered = function () {
 };
 
-Template.Home.destroyed = function () {
+Template.Settings.destroyed = function () {
 };

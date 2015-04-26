@@ -7,12 +7,13 @@
     {{/if}}
     
     {{#if showLogo}}
-      <div>
-        <h5><a href="{{pathFor 'home'}}" class="white-text">SARAI Template</a></h5>
+      <div layout horizontal center>
+        <!-- <h5><a href="{{pathFor 'home'}}" class="white-text">SARAI Template</a></h5> -->
+        <a href="{{pathFor 'home'}}" style="margin-top:10px;"><img src="/images/seal-govph.png"> </a>
       </div>
     {{/if}}
 
-    <div flex></div>
+    
 
     {{#if showTopNavMenu}}
       <div id="top-nav-menu" layout horizontal center>
@@ -66,7 +67,7 @@
       
       
     {{/if}}
-    
+    <div flex></div>
     {{#if isTopNav}}
       <div id="login-area">
         {{> loginButtons align="right"}}

@@ -1,4 +1,4 @@
-<template name="MasterLayout">
+<template name="AdminLayout">
   <core-drawer-panel 
     id="core-drawer-panel-main"
     forceNarrow = "{{forceNarrow}}"
@@ -11,16 +11,11 @@
 
     <core-header-panel main id="core-main">
       {{> Navigation isTopNav=true}}
-      <div class="header">
-        {{> header}}
-      </div>
-      {{> Auxillary}}
+     
       <div class="content">
         {{> yield}}
       </div>
-      <div class="footer">
-        {{> footer}}
-      </div>
+
     </core-header-panel>
   </core-drawer-panel>
 </template>

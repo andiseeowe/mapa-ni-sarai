@@ -40,20 +40,26 @@ Template.Navigation.helpers({
       // },
       
       {
-        name: "About Us",
+        name: "Home",
         path: "inside",
         linkInside: true,
         hasChild: false
       },      
       
       {
-        name: "Tools",
+        name: "Transparency Seal",
         path: "posts",
         linkInside: true,
         hasChild: false
       },
       {
-        name: "Crops",
+        name: "Services",
+        path: "posts",
+        linkInside: true,
+        hasChild: false
+      },
+      {
+        name: "Commodities",
         path: "inside",
         linkInside: true,
         hasChild: true,
@@ -73,8 +79,8 @@ Template.Navigation.helpers({
         ]
       }, 
       {
-        name: "Contact Us",
-        path: "posts",
+        name: "Programs",
+        path: "settings",
         linkInside: true,
         hasChild: false
       }

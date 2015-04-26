@@ -25,3 +25,14 @@ Router.route('posts', {
   action: 'action',
   where: 'client'
 });
+
+
+Router.route('settings', {
+  layoutTemplate: 'AdminLayout',
+  name: 'settings',
+  controller: 'SettingsController',
+  action: 'action',
+  where: 'client'
+});
+
+Router.route('/submit', {name: 'postSubmit'});
